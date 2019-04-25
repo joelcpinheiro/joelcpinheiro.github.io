@@ -8,11 +8,13 @@ command line one, two and more...
 
 POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
+Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS  
+
 https://go.gliffy.com/go/publish/8047443
 
 #### Nginx(Reverse Proxy)
 
-See instructions on the link of the project, 
+See instructions on the link of the project, https://github.com/joelcpinheiro/revproxy-nginx
 
 #### Docker Swarm implementation on CentOS 7 with steps...
 ##### I use 3 managers in Docker Swarm
@@ -102,7 +104,7 @@ docker service create \
 
 Access the Traefik URL IP_ANY_MANAGER:8080 and see the frontends and backends of services created.
 
-To continue create a service called <b>ussuapp</b>, don't remenber of add the labels which are traefik.port, network traefik-pub and label traefik.frontend.rule, that is an URL on the application. 
+To continue create a service call <b>ussuapp</b>, don't remenber of add the labels which are traefik.port, network traefik-pub and label traefik.frontend.rule, that is an URL on the application. 
 
 ```sh
 docker service create \
@@ -111,6 +113,14 @@ docker service create \
     --network traefik-pub \
     --label traefik.frontend.rule=Host:ussu.com\
     nginx:latest
+```
+
+Now the application call ussuapp can be accessed by URL ussu.com.
+
+#### 4. Instructions to run Jenkins on Docker host homologation
+
+```sh
+
 ```
 
 
