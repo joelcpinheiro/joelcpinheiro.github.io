@@ -6,7 +6,8 @@
 
 command line one, two and more...
 
-#### Docker swarm implementation on CentOS 7 with steps below...
+#### Docker Swarm implementation on CentOS 7 with steps...
+##### I use 3 managers in Docker Swarm
 
 1. Prepare SO first and install docker:
 
@@ -35,6 +36,23 @@ systemctl enable docker
 systemctl start docker
 
 ```
+
+Start Docker Swarm on the three nodes as manager, executing the command below:
+
+```sh
+
+# Initiate swarm cluster on the first server
+
+docker swarm init
+
+# Execute the command an copy the line where display "docker swarm join.....
+
+docker swarm join-token manager
+
+```
+Don't forget of allow the communication port 2377 on iptables to cluster work successfully. :)
+
+
 
 2. Instructions to install Portainer on Docker Swarm nodes
 
