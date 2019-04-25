@@ -6,6 +6,10 @@
 
 command line one, two and more...
 
+POC using Nginx as reverse proxy, Docker Swarm, GlusterFS, 
+
+https://go.gliffy.com/go/publish/8047443
+
 #### Docker Swarm implementation on CentOS 7 with steps...
 ##### I use 3 managers in Docker Swarm
 
