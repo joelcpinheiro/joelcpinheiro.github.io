@@ -6,9 +6,13 @@
 
 command line one, two and more...
 
-POC using Nginx as reverse proxy, Docker Swarm, GlusterFS, 
+POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
 https://go.gliffy.com/go/publish/8047443
+
+#### Nginx(Reverse Proxy)
+
+See instructions on the link of the project, 
 
 #### Docker Swarm implementation on CentOS 7 with steps...
 ##### I use 3 managers in Docker Swarm
