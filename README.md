@@ -9,7 +9,7 @@ command line one, two and more...
 #### Docker Swarm implementation on CentOS 7 with steps...
 ##### I use 3 managers in Docker Swarm
 
-1. Prepare SO first and install docker:
+#### 1. Prepare SO first and install docker:
 
 ```sh
 setenforce 0
@@ -37,7 +37,7 @@ systemctl start docker
 
 ```
 
-Start Docker Swarm on the three nodes as manager, executing the command below:
+#### Start Docker Swarm on the three nodes as manager, executing the command below:
 
 ```sh
 
@@ -55,7 +55,7 @@ Don't forget of allow the communication port 2377 on iptables to cluster work su
 Now you should install the portainer, accessing one server manage node and view the step 2.
 The Portainer is a GUI manager wich permit view all the resources on your cluster of Docker Swarm.
 
-2. Instructions to install Portainer on Docker Swarm nodes
+#### 2. Instructions to install Portainer on Docker Swarm nodes
 
 ```sh
 # Install based on link https://www.portainer.io/installation/
@@ -69,7 +69,7 @@ Access the Portainer URL IP_ANY_MANAGER:9000
 
 The Traefik will be manager all the applications on the containers and will serve frontend and backend these containers.
 
-3. Install the Traefik on Docker Swarm nodes
+#### 3. Install the Traefik on Docker Swarm nodes
 
 ```sh
 docker network create --driver=overlay traefik-pub
@@ -102,6 +102,8 @@ docker service create \
     --label traefik.frontend.rule=Host:ussu.com\
     nginx:latest
 ```
+
+
 
 
 
