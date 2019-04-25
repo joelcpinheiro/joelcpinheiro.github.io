@@ -9,7 +9,7 @@ command line one, two and more...
 #### Docker Swarm implementation on CentOS 7 with steps...
 ##### I use 3 managers in Docker Swarm
 
-#### 1. Prepare SO first and install docker:
+#### 1. Prepare SO first and install docker-ce:
 
 ```sh
 setenforce 0
@@ -55,7 +55,7 @@ Don't forget of allow the communication port 2377 on iptables to cluster work su
 Now you should install the portainer, accessing one server manage node and view the step 2.
 The Portainer is a GUI manager wich permit view all the resources on your cluster of Docker Swarm.
 
-#### 2. Instructions to install Portainer on Docker Swarm nodes
+#### 2. Instructions to run Portainer on Docker Swarm Managers
 
 ```sh
 # Install based on link https://www.portainer.io/installation/
@@ -69,7 +69,9 @@ Access the Portainer URL IP_ANY_MANAGER:9000
 
 The Traefik will be manager all the applications on the containers and will serve frontend and backend these containers.
 
-#### 3. Install the Traefik on Docker Swarm nodes
+Access one of managers on Docker Swarm and execute the command below.
+
+#### 3. Run the Traefik on Docker Swarm Managers
 
 ```sh
 docker network create --driver=overlay traefik-pub
@@ -92,7 +94,7 @@ docker service create \
 
 Access the Traefik URL IP_ANY_MANAGER:8080 and see the frontends and backends of services created.
 
-To continue create a service called ussuapp, don't remenber of add the labels which are traefik.port, network traefik-pub and label traefik.frontend.rule, that is an URL on the application. 
+To continue create a service called <b>ussuapp</b>, don't remenber of add the labels which are traefik.port, network traefik-pub and label traefik.frontend.rule, that is an URL on the application. 
 
 ```sh
 docker service create \
@@ -104,7 +106,11 @@ docker service create \
 ```
 
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
