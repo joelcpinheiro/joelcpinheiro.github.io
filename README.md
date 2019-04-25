@@ -159,20 +159,13 @@ Case have a firewalld enabled, execute these commands below:
 firewall-cmd --add-service=ftp --permanent 
 firewall-cmd --reload 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 #### Learning English
 
