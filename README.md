@@ -52,7 +52,8 @@ docker swarm join-token manager
 ```
 Don't forget of allow the communication port 2377 on iptables to cluster work successfully. :)
 
-
+Now you should install the portainer, accessing one server manage node and view the step 2.
+The Portainer is a GUI manager wich permit view all the resources on your cluster of Docker Swarm.
 
 2. Instructions to install Portainer on Docker Swarm nodes
 
@@ -64,8 +65,9 @@ docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 
 ```
 
-Access the Portainer URL IP:9000
+Access the Portainer URL IP_ANY_MANAGER:9000
 
+The Traefik will be manager all the applications on the containers and will serve frontend and backend these containers.
 
 3. Install the Traefik on Docker Swarm nodes
 
@@ -88,13 +90,26 @@ docker service create \
     
 ```
 
-Access the Traefik URL IP:8080 and see the frontends and backends of services created.
+Access the Traefik URL IP_ANY_MANAGER:8080 and see the frontends and backends of services created.
+
+To continue create a service called ussuapp, don't remenber of add the labels which are traefik.port, network traefik-pub and label traefik.frontend.rule, that is an URL on the application. 
+
+```sh
+docker service create \
+    --name ussuapp \
+    --label traefik.port=80 \
+    --network traefik-pub \
+    --label traefik.frontend.rule=Host:ussu.com\
+    nginx:latest
+```
+
+
 
 
 
 #### K8S
 
-
+##### Commands...
 
 
 #### Linux
