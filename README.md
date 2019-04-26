@@ -119,10 +119,22 @@ Now the application call ussuapp can be accessed by URL ussu.com.
 
 #### 4. Instructions to run Jenkins on Docker host homologation
 
-```sh
 
+```sh
+docker run \
+  -u root \
+  --rm \
+  -d \
+  -p 8080:8080 \
+  -p 50000:50000 \
+  -v jenkins-data:/var/jenkins_home \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  jenkinsci/blueocean
 
 ```
+Reference Link: https://jenkins.io/doc/book/installing/
+
+Now access the link IP:8080 and configure the Jenkins.
 
 #### 5. Instructions to install GlusterFS
 
