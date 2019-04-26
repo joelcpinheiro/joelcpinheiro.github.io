@@ -6,7 +6,7 @@
 
 command line one, two and more...
 
-POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
+#### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
 Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS  
 
@@ -121,8 +121,15 @@ Now the application call ussuapp can be accessed by URL ussu.com.
 
 ```sh
 
+
 ```
 
+#### 5. Instructions to install GlusterFS
+
+```sh
+
+
+```
 
 <br>
 <br>
@@ -133,13 +140,29 @@ Now the application call ussuapp can be accessed by URL ussu.com.
 
 
 
-#### K8S
+#### Kubernetes
+
+<br>
+<br>
+<br>
+
+#### Rancher
+
+<br>
+<br>
+<br>
 
 ##### Commands...
 
+<br>
+<br>
+<br>
 
 #### Linux
 
+<br>
+<br>
+<br>
 
 
 
@@ -151,6 +174,9 @@ mount.cifs //192.168.0.20/tmp/ /opt/tmp/ -o domain=meudominio,username=joel.pinh
 ```
 
 
+<br>
+<br>
+<br>
 
 ####  VSFTP best configuration on CentOS 7
 
@@ -183,6 +209,15 @@ Case have a firewalld enabled, execute these commands below:
 firewall-cmd --add-service=ftp --permanent 
 firewall-cmd --reload 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
