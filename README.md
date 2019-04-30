@@ -178,6 +178,7 @@ Now access the link IP:8080 and configure the Jenkins.
 
 
 
+
 Mount an network unit of rwindows to GNU/Linux:
 
 ```sh
@@ -240,11 +241,16 @@ firewall-cmd --reload
 
 
 
-Unban IP Fail2ban
+Unban IP Fail2ban:
 ```sh
 fail2ban-client set sshd unbanip 10.10.100.22
 ```
 
+Recognize disk in guest linux on VMware and don't needed restart:
+
+```sh
+ls /sys/class/scsi_host/ | while read host ; do echo "- - -" > /sys/class/scsi_host/$host/scan ; done
+```
 
 #### Learning English
 
