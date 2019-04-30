@@ -238,6 +238,14 @@ firewall-cmd --reload
 <br>
 <br>
 
+
+
+Unban IP Fail2ban
+```sh
+fail2ban-client set sshd unbanip 10.10.100.22
+```
+
+
 #### Learning English
 
 Search on youtube:<br>
