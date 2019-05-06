@@ -161,9 +161,18 @@ moc-docker-02:/replica/brick/2/brk \
 moc-docker-03:/replica/brick/3/brk
 ```
 
+Execute the echo on the each node correspond, in this case on the three managers:
+
+```sh
+echo '/dev/sdb1 /replica/brick/1 xfs defaults 0 0' >> /etc/fstab
+echo '/dev/sdb1 /replica/brick/2 xfs defaults 0 0' >> /etc/fstab
+echo '/dev/sdb1 /replica/brick/3 xfs defaults 0 0' >> /etc/fstab
+```
 
 <br>
 <br>
+
+
 <br>
 <br>
 <br>
