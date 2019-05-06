@@ -26,7 +26,7 @@ setenforce 0
 yum install vim -y
 # remove parameter on Selinux of enforcing to disabled
 
-vim /etc/selinux/config 
+vim /etc/selinux/config
 
 # Disable and stop firewalld, install iptables-services
 
@@ -40,7 +40,7 @@ systemctl start iptables
 
 yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-yum update 
+yum update
 yum install docker-ce
 systemctl enable docker
 systemctl start docker
@@ -60,7 +60,9 @@ docker swarm init
 docker swarm join-token manager
 
 ```
-Don't forget of allow the communication port 2377 on iptables to cluster work successfully. :)
+Don't forget of allow the communication port 2377 on iptables to cluster work successfully, insert the line on the /etc/sysconfig/iptables:
+-A INPUT -s 0.0.0.0/0 -m state --state NEW -j ACCEPT
+
 
 Now you should install the portainer, accessing one server manage node and view the step 2.
 The Portainer is a GUI manager wich permit view all the resources on your cluster of Docker Swarm.
@@ -99,12 +101,12 @@ docker service create \
     --docker.domain=traefik \
     --docker.watch \
     --web
-    
+
 ```
 
 Access the Traefik URL IP_ANY_MANAGER:8080 and see the frontends and backends of services created.
 
-To continue create a service call <b>ussuapp</b>, don't remenber of add the labels which are traefik.port, network traefik-pub and label traefik.frontend.rule, that is an URL on the application. 
+To continue create a service call <b>ussuapp</b>, don't remenber of add the labels which are traefik.port, network traefik-pub and label traefik.frontend.rule, that is an URL on the application.
 
 ```sh
 docker service create \
@@ -219,8 +221,8 @@ Case have a firewalld enabled, execute these commands below:
 
 
 ```sh
-firewall-cmd --add-service=ftp --permanent 
-firewall-cmd --reload 
+firewall-cmd --add-service=ftp --permanent
+firewall-cmd --reload
 ```
 <br>
 <br>
