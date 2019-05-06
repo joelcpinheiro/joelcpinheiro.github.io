@@ -168,7 +168,13 @@ echo '/dev/sdb1 /replica/brick/1 xfs defaults 0 0' >> /etc/fstab
 echo '/dev/sdb1 /replica/brick/2 xfs defaults 0 0' >> /etc/fstab
 echo '/dev/sdb1 /replica/brick/3 xfs defaults 0 0' >> /etc/fstab
 ```
+Start the glusterfs call gfs and permit only the nodes docker
 
+```sh
+gluster volume set gfs auth.allow IPnode01,IPnode02,IPnode03
+gluster volume start gfs
+
+```
 <br>
 <br>
 
