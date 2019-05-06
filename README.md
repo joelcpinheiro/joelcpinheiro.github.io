@@ -153,12 +153,13 @@ yum --enablerepo=centos-gluster6 -y install glusterfs glusterfs-fuse
 Create the directory `/replica/brick/x/brk`, where x are a node number and execute the command on the first docker node:
 <br>
 
+```sh
 gluster volume create gfs \
 replica 3 \
 moc-docker-01:/replica/brick/1/brk \
 moc-docker-02:/replica/brick/2/brk \
 moc-docker-03:/replica/brick/3/brk
-
+```
 
 
 <br>
