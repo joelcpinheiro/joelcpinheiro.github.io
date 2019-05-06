@@ -61,8 +61,10 @@ docker swarm join-token manager
 
 ```
 Don't forget of allow the communication port 2377 on iptables to cluster work successfully, insert the line on the /etc/sysconfig/iptables:
+<br>
+```sh
 -A INPUT -s 0.0.0.0/0 -m state --state NEW -j ACCEPT
-
+```
 
 Now you should install the portainer, accessing one server manage node and view the step 2.
 The Portainer is a GUI manager wich permit view all the resources on your cluster of Docker Swarm.
