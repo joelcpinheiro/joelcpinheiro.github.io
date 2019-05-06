@@ -143,9 +143,23 @@ Now access the link IP:8080 and configure the Jenkins.
 #### 5. Instructions to install GlusterFS
 
 ```sh
-
+yum -y install centos-release-gluster6
+# Enable repo CentOS Gluster
+sed -i -e "s/enabled=1/enabled=0/g" /etc/yum.repos.d/CentOS-Gluster-6.repo
+# Install GlusterFS with the repo enabled
+yum --enablerepo=centos-gluster6 -y install glusterfs glusterfs-fuse
 
 ```
+Create the directory `/replica/brick/x/brk`, where x are a node number and execute the command on the first docker node:
+<br>
+
+gluster volume create gfs \
+replica 3 \
+moc-docker-01:/replica/brick/1/brk \
+moc-docker-02:/replica/brick/2/brk \
+moc-docker-03:/replica/brick/3/brk
+
+
 
 <br>
 <br>
