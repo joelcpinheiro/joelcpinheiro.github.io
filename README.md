@@ -122,8 +122,6 @@ docker service create \
 Now the application call ussuapp can be accessed by URL ussu.com.
 
 #### 4. Instructions to run Jenkins on Docker host homologation
-
-
 ```sh
 docker run \
   -u root \
@@ -285,6 +283,31 @@ Recognize disk in guest linux on VMware and don't needed restart:
 ```sh
 ls /sys/class/scsi_host/ | while read host ; do echo "- - -" > /sys/class/scsi_host/$host/scan ; done
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+#### PowerShell Commands
+Reference:
+
+```sh
+
+
+```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 #### Learning English
 
