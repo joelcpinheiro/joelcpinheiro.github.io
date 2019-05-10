@@ -208,7 +208,14 @@ gluster volume start gfs
 <br>
 <br>
 
+#### Disable IPv6 on debian
+Insert on the file /etc/sysctl.conf the parameters bellow:
 
+```sh
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+```
 
 
 Mount an network unit of rwindows to GNU/Linux:
