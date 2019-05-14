@@ -223,9 +223,13 @@ ip route flush table main
 ```
 
 ### Update URL git project:
-```sh git remote set-url origin http://git.domain.com/project.git ```
-
-
+```sh
+git remote set-url origin http://git.domain.com/project.git
+```
+### Store credential user git(github/gitlab/etc...)
+```sh
+git config credential.helper store
+```
 
 
 #### Disable IPv6 on debian
