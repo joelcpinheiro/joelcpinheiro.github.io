@@ -6,8 +6,16 @@
 
 command line one, two and more...
 
+
+##### Remove volumes don't used:
+```sh
+docker volume rm $(docker volume ls -qf dangling=true)
+```
+
+***************************************************************************************************
 ***************************************************************************************************
 **********************************  POC Environment  **********************************************
+***************************************************************************************************
 
 #### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
