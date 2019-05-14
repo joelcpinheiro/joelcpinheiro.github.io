@@ -6,6 +6,9 @@
 
 command line one, two and more...
 
+***************************************************************************************************
+**********************************  POC Environment  **********************************************
+
 #### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
 Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS  
@@ -207,6 +210,23 @@ gluster volume start gfs
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+### clean all routes:
+
+```sh
+ip route flush table main
+```
+
+### Update URL git project:
+```sh git remote set-url origin http://git.domain.com/project.git ```
+
+
+
 
 #### Disable IPv6 on debian
 Insert on the file /etc/sysctl.conf the parameters bellow:
