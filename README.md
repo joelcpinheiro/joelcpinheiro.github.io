@@ -11,10 +11,16 @@ command line one, two and more...
 ```sh
 docker volume rm $(docker volume ls -qf dangling=true)
 ```
+##### Remove volumes don't used:
+
+```sh
+docker image prune -a -f
+```
 
 ***************************************************************************************************
 ***************************************************************************************************
-**********************************  POC Environment  **********************************************
+POC Environment  
+***************************************************************************************************
 ***************************************************************************************************
 
 #### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
@@ -224,17 +230,24 @@ gluster volume start gfs
 <br>
 <br>
 <br>
-### clean all routes:
+
+##### Check logins of a specific user on CentOS 7 distribution:
+
+```sh
+utmpdump /var/log/wtmp | grep -E "\[7].*joel" | awk -v OFS=" ## " 'BEGIN {FS="] "}; {print $2,$4,$7,$8}' | sed -e 's/\[//g' -e 's/\]//g'
+```
+
+##### clean all routes:
 
 ```sh
 ip route flush table main
 ```
 
-### Update URL git project:
+##### Update URL git project:
 ```sh
 git remote set-url origin http://git.domain.com/project.git
 ```
-### Store credential user git(github/gitlab/etc...)
+##### Store credential user git(github/gitlab/etc...)
 ```sh
 git config credential.helper store
 ```
