@@ -324,6 +324,12 @@ firewall-cmd --reload
 <br>
 
 
+To add IP/Network on the Fail2ban whitelist, edit the parameter "ignoreip" in the file /etc/fail2ban/jail.conf:
+
+ignoreip = 127.0.0.1 YOURIP YOURNETWORK
+
+After restart the fail2ban service
+
 
 Unban IP Fail2ban:
 ```sh
