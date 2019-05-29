@@ -373,20 +373,22 @@ Reference:
 
 #### Learning books about DevOps
 
-Manual de DevOps
-O Projeto Fenix
-Entrega Contínua
-TI Lean
-Toyota Kata
-Scrum Essencial
-Scrum a arte de fazer o dobro do tempo
-Comunicação não violenta
-O jeito Disney de encantar clientes
-A meta(Goldratti)
-A startup enxuta(Eric Ries)
-Implementando o desenvolvimento lean de software
-Microserviços prontos para a produção
-
+Manual de DevOps<br>
+O Projeto Fenix<br>
+Entrega Contínua<br>
+TI Lean<br>
+Toyota Kata<br>
+Scrum Essencial<br>
+Scrum a arte de fazer o dobro do tempo<br>
+Comunicação não violenta<br>
+O jeito Disney de encantar clientes<br>
+A meta(Goldratti)<br>
+A startup enxuta(Eric Ries)<br>
+Implementando o desenvolvimento lean de software<br>
+Microserviços prontos para a produção<br>
+<br>
+<br>
+<br>
 #### Learning English
 
 Search on youtube:<br>
