@@ -251,7 +251,13 @@ git remote set-url origin http://git.domain.com/project.git
 ```sh
 git config credential.helper store
 ```
+##### Good jenkins plugins:
 
+Blue Ocean
+Chucknorris Plugin
+Gitlab
+Green Bals
+SSH Plugin
 
 #### Disable IPv6 on debian
 Insert on the file /etc/sysctl.conf the parameters bellow:
@@ -365,7 +371,21 @@ Reference:
 <br>
 
 
+#### Learning books about DevOps
 
+Manual de DevOps
+O Projeto Fenix
+Entrega Contínua
+TI Lean
+Toyota Kata
+Scrum Essencial
+Scrum a arte de fazer o dobro do tempo
+Comunicação não violenta
+O jeito Disney de encantar clientes
+A meta(Goldratti)
+A startup enxuta(Eric Ries)
+Implementando o desenvolvimento lean de software
+Microserviços prontos para a produção
 
 #### Learning English
 
