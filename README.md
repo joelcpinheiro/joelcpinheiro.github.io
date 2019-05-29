@@ -19,7 +19,7 @@ docker image prune -a -f
 
 ***************************************************************************************************
 ***************************************************************************************************
-Proof of Concept Environment Cluster Docker Swarm 
+Proof of Concept Environment Cluster Docker Swarm
 ***************************************************************************************************
 ***************************************************************************************************
 
@@ -63,7 +63,7 @@ systemctl enable docker
 systemctl start docker
 
 ```
-
+<br>
 #### Start Docker Swarm on the three nodes as manager, executing the command below:
 
 ```sh
