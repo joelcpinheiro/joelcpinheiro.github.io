@@ -354,6 +354,16 @@ ls /sys/class/scsi_host/ | while read host ; do echo "- - -" > /sys/class/scsi_h
 <br>
 <br>
 
+#### Install LetsEncrypt on Zimbra
+
+Reference: https://respirandolinux.com.br/2017/05/13/zimbra-8-7-implementando-certificado-assinado-com-lets-encrypt/
+Execute the commands bellow case occurred an error of ldap with TLS <br>
+```sh
+zmlocalconfig -e ssl_allow_untrusted_certs=true 
+zmlocalconfig -e ldap_starttls_supported=0
+zmlocalconfig -e ldap_starttls_required=false
+zmlocalconfig -e ldap_common_require_tls=0
+```
 
 #### PowerShell Commands
 Reference:
