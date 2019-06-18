@@ -253,11 +253,11 @@ git config credential.helper store
 ```
 ##### Good jenkins plugins:
 
-Blue Ocean
-Chucknorris Plugin
-Gitlab
-Green Bals
-SSH Plugin
+Blue Ocean<br>
+Chucknorris Plugin<br>
+Gitlab<br>
+Green Bals<br>
+SSH Plugin<br>
 
 #### Disable IPv6 on debian
 Insert on the file /etc/sysctl.conf the parameters bellow:
@@ -317,22 +317,12 @@ firewall-cmd --reload
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 To add IP/Network on the Fail2ban whitelist, edit the parameter "ignoreip" in the file /etc/fail2ban/jail.conf:
 
+```sh
 ignoreip = 127.0.0.1 YOURIP YOURNETWORK
+```
 
 After restart the fail2ban service
 
