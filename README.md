@@ -6,6 +6,12 @@
 
 command line one, two and more...
 
+##### Clean containers logs
+ 
+```sh
+truncate -s 0 /var/lib/docker/containers/*/*-json.log
+```
+
 
 ##### Remove volumes don't used:
 ```sh
