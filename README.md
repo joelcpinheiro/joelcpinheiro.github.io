@@ -4,7 +4,7 @@
 
 #### Docker
 
-command line one, two and more...
+command line one, two and more....
 
 ##### Clean containers logs
  
