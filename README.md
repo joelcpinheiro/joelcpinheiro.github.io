@@ -6,7 +6,7 @@
 
 command line one, two and more....
 
-##### Clean containers logs
+##### Clean docker containers logs of Operational System
  
 ```sh
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
@@ -83,6 +83,7 @@ docker swarm init
 docker swarm join-token manager
 
 ```
+#### PLEASE ATTENTION ####
 Don't forget of allow the communication port 2377 on iptables to cluster work successfully, insert the line on the /etc/sysconfig/iptables:
 <br>
 ```sh
