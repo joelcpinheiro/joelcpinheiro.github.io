@@ -207,6 +207,12 @@ gluster volume start gfs
 
 #### Zabbix
 
+Check if UserParameter exists on zabbix-agent:
+
+zabbix_get -s <servername | ip> -p port -k "key.status"
+
+
+
 Delete old data DB Zabbix:
 
 ```sh
