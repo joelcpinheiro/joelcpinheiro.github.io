@@ -209,9 +209,15 @@ gluster volume start gfs
 
 Check if UserParameter exists on zabbix-agent:
 
+```sh
 zabbix_get -s <servername | ip> -p port -k "key.status"
+```
 
+External ping to another server on Windows Server using userparameter:
 
+```sh
+UserParameter=checkping[*],ping -n 1 -w 1 "$1" | find  /i "TTL=" /c
+```
 
 Delete old data DB Zabbix:
 
