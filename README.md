@@ -269,6 +269,12 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 <br>
 <br>
 
+##### Check url many times using for command:
+```sh
+for i in `seq 1 20`; do curl http://site; done
+```
+
+
 ##### Check logins of a specific user on CentOS 7 distribution:
 
 ```sh
