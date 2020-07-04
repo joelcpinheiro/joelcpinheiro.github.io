@@ -1,2 +1,10 @@
 theme: jekyll-theme-hacker
-title: Joel Pinheiro
+# Site settings
+title: Joel Pinheiro Profile
+email: joelcostapinheiro @ gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Knowledge acquired in the short time of this life.
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://joelpinheiro.com" # the base hostname & protocol for your site
+#twitter_username: contentfulapp
+github_username:  joelcpinheiro
