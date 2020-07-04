@@ -1,5 +1,3 @@
-#### Joel Pinheiro Profile
-
 #### Under construction
 
 #### Learning books about DevOps
