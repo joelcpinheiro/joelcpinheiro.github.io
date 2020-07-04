@@ -8,3 +8,12 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "http://joelpinheiro.com" # the base hostname & protocol for your site
 #twitter_username: contentfulapp
 github_username:  joelcpinheiro
+
+menus:
+    main:
+    - Home: /
+    - Archives: /posts/
+    - About me: /about/
+    side:
+    - Categories: /categories/
+    - Tags: /tags/
