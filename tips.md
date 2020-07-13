@@ -1,23 +1,21 @@
 ### Always share my content to growing the power of internet!
 
-#### Command lists...
-
 #### Docker
 
 command line one, two and more....
 
-##### Clean docker containers logs of Operational System
+#### Clean docker containers logs of Operational System
  
 ```sh
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
 ```
 
 
-##### Remove volumes don't used:
+#### Remove volumes don't used:
 ```sh
 docker volume rm $(docker volume ls -qf dangling=true)
 ```
-##### Remove volumes don't used:
+#### Remove volumes don't used:
 
 ```sh
 docker image prune -a -f
@@ -40,7 +38,7 @@ https://go.gliffy.com/go/publish/8047443
 See instructions on the link of the project, https://github.com/joelcpinheiro/revproxy-nginx
 
 #### Docker Swarm implementation on CentOS 7 with steps...
-##### I use 3 managers in Docker Swarm
+#### I use 3 managers in Docker Swarm
 
 #### 1. Prepare SO first and install docker-ce:
 
@@ -274,7 +272,6 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 for i in `seq 1 20`; do curl http://site; done
 ```
 
-
 ##### Check logins of a specific user on CentOS 7 distribution:
 
 ```sh
@@ -313,7 +310,7 @@ net.ipv6.conf.lo.disable_ipv6 = 1
 ```
 
 
-Mount an network unit of rwindows to GNU/Linux:
+#### Mount an network unit of rwindows to GNU/Linux:
 
 ```sh
 mount.cifs //Host/<Pasta>/ /Local_Destino -o domain=dominio,username=<user>
@@ -408,38 +405,11 @@ Reference:
 
 ```
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
-#### Learning books about DevOps
-
-Manual de DevOps<br>
-O Projeto Fenix<br>
-Entrega Contínua<br>
-TI Lean<br>
-Toyota Kata<br>
-Scrum Essencial<br>
-Scrum a arte de fazer o dobro do tempo<br>
-Comunicação não violenta<br>
-O jeito Disney de encantar clientes<br>
-A meta(Goldratti)<br>
-A startup enxuta(Eric Ries)<br>
-Implementando o desenvolvimento lean de software<br>
-Microserviços prontos para a produção<br>
 <br>
 <br>
 <br>
-#### Learning English
-
-Search on youtube:<br>
-Crazy Koller;<br>
-Small Advantages;<br>
-Rachel's English;<br>
-Elemental English;<br>
-English in Brazil by Carina Fragoso;<br>
-Ask Jackie;<br>
+<br>
+<br>
+<br>
