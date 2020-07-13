@@ -1,6 +1,6 @@
 ### Under construction...
 
-#### <a href="https://joelpinheiro.com/tips">Anyone tips for a life</a>
+#### <a href="https://joelpinheiro.com/tips">Some tips for a life</a>
 
 #### Learning books about DevOps
 
