@@ -1,8 +1,3 @@
-layout: tips
-title: "TIPS"
-permalink: /tips/
-
-
 ### Always share my content to growing the power of internet!
 
 #### Command lists...
