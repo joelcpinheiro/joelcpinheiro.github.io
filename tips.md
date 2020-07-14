@@ -35,7 +35,7 @@ Was used in this project six Virtual Machines, one to run containers at homologa
 
 #### Nginx(Reverse Proxy)
 
-See instructions on the link of the project, <a href="https://github.com/joelcpinheiro/revproxy-nginx">this link</a>
+See instructions on the link of the project, on <a href="https://github.com/joelcpinheiro/revproxy-nginx">this link.</a>
 
 #### Docker Swarm implementation on CentOS 7 with steps...
 #### I use 3 managers in Docker Swarm
