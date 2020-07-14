@@ -31,11 +31,11 @@ Proof of Concept Environment Cluster Docker Swarm
 
 Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS.
 
-#### <a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
+<a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
 
 #### Nginx(Reverse Proxy)
 
-See instructions on the link of the project, https://github.com/joelcpinheiro/revproxy-nginx
+See instructions on the link of the project, <a href="https://github.com/joelcpinheiro/revproxy-nginx">this link</a>
 
 #### Docker Swarm implementation on CentOS 7 with steps...
 #### I use 3 managers in Docker Swarm
