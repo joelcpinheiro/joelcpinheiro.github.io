@@ -29,9 +29,9 @@ Proof of Concept Environment Cluster Docker Swarm
 
 #### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
-Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS  
+Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS.
 
-https://go.gliffy.com/go/publish/8047443
+#### <a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
 
 #### Nginx(Reverse Proxy)
 
