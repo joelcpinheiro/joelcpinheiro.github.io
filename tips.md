@@ -46,15 +46,19 @@ Add the disk on the hardware configurations of guest like IDE device disk and up
 
 Now, you could power on the virtual machine with success and check if is very well =D
 
-An observation, do you have adjust the interface name on the guest, for example, interface ens192 was recreated to eth0
+An observation, do you have adjust the interface name on the guest, for example, interface ens192 was recreated to eth0.
 
-
+<br>
+<br>
+<br>
 ***************************************************************************************************
 ***************************************************************************************************
 Proof of Concept Environment Cluster Docker Swarm
 ***************************************************************************************************
 ***************************************************************************************************
-
+<br>
+<br>
+<br>
 #### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
 Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS.
