@@ -21,6 +21,30 @@ docker volume rm $(docker volume ls -qf dangling=true)
 docker image prune -a -f
 ```
 
+
+#### Proxmox
+
+#### Import guest ESXi to Proxmox and stop that spend money with VMware
+
+1. I supose that you know that need shutdown the guest and export to ovf, it's okay?
+
+2. Now you will convert the disk on VMDK to QCOW2 format, executingo the command below:
+
+```sh
+qemu-img convert -f vmdk VIRTMACHINE-disk1.vmdk -O qcow2 VIRTMACHINE.qcow2
+```
+
+3. Login on Proxmox and create the guest of custom that you want.
+
+4. Now, remove the disk default to import the disk with the command below:
+
+```sh
+qm importdisk IDVM VIRTMACHINE.qcow2 LVM01
+```
+
+
+
+
 ***************************************************************************************************
 ***************************************************************************************************
 Proof of Concept Environment Cluster Docker Swarm
