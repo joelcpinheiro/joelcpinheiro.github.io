@@ -1,15 +1,15 @@
-#### Do you want see my profissional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile?</a>
+#### Do you want see my profissional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
 
-##### Updates
-
+#### Updates
+<br>
 #### Online Courses
-
-
-
+<br>
+<br>
+<br>
 #### Events
-
-### DOD Fortaleza 2019
-### DOD Fortaleza 2018
+<br>
+DOD Fortaleza 2019<br>
+DOD Fortaleza 2018
 
 
 
