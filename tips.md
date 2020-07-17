@@ -197,13 +197,11 @@ gluster volume start gfs
 ```
 <br>
 <br>
-
-
 <br>
 <br>
 <br>
 
-#### Zabbix
+#### Zabbix Server
 
 Check if UserParameter exists on zabbix-agent:
 
@@ -239,7 +237,6 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 
 #### Kubernetes
 
-
 #### I will add content shortly ;)
 <br>
 <br>
@@ -261,7 +258,7 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 
 #### Linux
 
-##### Linux? He change my life <3 <3 <3....not so much hehe
+#### Linux? He change my life <3 <3 <3....not so much hehe
 <br>
 <br>
 <br>
@@ -272,32 +269,32 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 <br>
 <br>
 
-##### Check url many times using for command:
+#### Check url many times using for command:
 ```sh
 for i in `seq 1 20`; do curl http://site; done
 ```
 
-##### Check logins of a specific user on CentOS 7 distribution:
+#### Check logins of a specific user on CentOS 7 distribution:
 
 ```sh
 utmpdump /var/log/wtmp | grep -E "\[7].*joel" | awk -v OFS=" ## " 'BEGIN {FS="] "}; {print $2,$4,$7,$8}' | sed -e 's/\[//g' -e 's/\]//g'
 ```
 
-##### clean all routes:
+#### clean all routes:
 
 ```sh
 ip route flush table main
 ```
 
-##### Update URL git project:
+#### Update URL git project:
 ```sh
 git remote set-url origin http://git.domain.com/project.git
 ```
-##### Store credential user git(github/gitlab/etc...)
+#### Store credential user git(github/gitlab/etc...)
 ```sh
 git config credential.helper store
 ```
-##### Good jenkins plugins:
+#### Good jenkins plugins:
 
 Blue Ocean<br>
 Chucknorris Plugin<br>

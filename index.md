@@ -1,6 +1,9 @@
 ### Under construction...
 
+#### Do you want see my <a href="https://joelpinheiro.com/profile">profile?</a>
+
 #### <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
+#### Latest good content shared to you <a href="https://github.com/joelcpinheiro?tab=repositories">click here</a>
 
 #### Learning books about DevOps
 
