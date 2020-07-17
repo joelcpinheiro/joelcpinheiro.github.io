@@ -239,24 +239,29 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 
 #### Kubernetes
 
+
+#### I will add content shortly ;)
 <br>
 <br>
 <br>
 
 #### Rancher
 
+#### I will add content shortly ;)
 <br>
 <br>
 <br>
 
 ##### Commands...
 
+#### I will add content shortly ;)
 <br>
 <br>
 <br>
 
 #### Linux
 
+##### Linux? He change my life <3 <3 <3....not so much hehe
 <br>
 <br>
 <br>
@@ -401,15 +406,13 @@ zmlocalconfig -e ldap_common_require_tls=0
 Reference:
 
 ```sh
-
+Soon as possible
 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
