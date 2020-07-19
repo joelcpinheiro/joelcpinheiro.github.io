@@ -70,7 +70,7 @@ See instructions on the link of the project, on <a href="https://github.com/joel
 
 #### Docker Swarm implementation on CentOS 7 with steps...
 ###### Ps. Soon a ansibe playbook will come out of the oven :)
-
+<br>
 #### I use 3 managers in Docker Swarm
 
 #### 1. Prepare SO first and install docker-ce:
