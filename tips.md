@@ -10,12 +10,11 @@ command line one, two and more....
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
 ```
 
-
 #### Remove volumes don't used:
 ```sh
 docker volume rm $(docker volume ls -qf dangling=true)
 ```
-#### Remove volumes don't used:
+#### Remove images don't used:
 
 ```sh
 docker image prune -a -f
@@ -27,6 +26,8 @@ docker image prune -a -f
 #### Import guest ESXi to Proxmox and stop that spend money with VMware
 
 I supose that you know that need shutdown the guest and export to ovf, it's okay?
+
+Copy the OVF files to a node from Proxmox and...
 
 Now you will convert the disk on VMDK to QCOW2 format, executing the command below:
 
@@ -50,7 +51,6 @@ An observation, do you have adjust the interface name on the guest, for example,
 
 <br>
 <br>
-<br>
 ***************************************************************************************************
 ***************************************************************************************************
 Proof of Concept Environment Cluster Docker Swarm
@@ -58,18 +58,19 @@ Proof of Concept Environment Cluster Docker Swarm
 ***************************************************************************************************
 <br>
 <br>
-<br>
 #### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
 Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS.
 
-<a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
+See the Environment<a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
 
 #### Nginx(Reverse Proxy)
 
 See instructions on the link of the project, on <a href="https://github.com/joelcpinheiro/revproxy-nginx">this link.</a>
 
 #### Docker Swarm implementation on CentOS 7 with steps...
+###### Ps. Soon a ansibe playbook will come out of the oven :)
+
 #### I use 3 managers in Docker Swarm
 
 #### 1. Prepare SO first and install docker-ce:
