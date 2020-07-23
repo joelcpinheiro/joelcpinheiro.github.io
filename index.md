@@ -3,7 +3,7 @@
 #### Do you want see my <a href="https://joelpinheiro.com/profile">profile?</a>
 
 #### <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
-#### Latest good content shared to you <a href="https://github.com/joelcpinheiro?tab=repositories">click here</a>
+#### Latest good content shared to you click<a href="https://github.com/joelcpinheiro?tab=repositories"> here</a>
 
 #### Learning books about DevOps
 
@@ -21,9 +21,7 @@ A meta(Goldratti)<br>
 A startup enxuta(Eric Ries)<br>
 Implementando o desenvolvimento lean de software<br>
 Microserviços prontos para a produção<br>
-<br>
-<br>
-<br>
+
 #### Learning English
 
 Search on youtube:<br>
