@@ -13,7 +13,8 @@ Entrega Contínua<br>
 TI Lean<br>
 Toyota Kata<br>
 Scrum Essencial<br>
-Scrum a arte de fazer o dobro do tempo<br>
+Scrum a arte de fazer o dobro do tempo
+
 Comunicação não violenta<br>
 O jeito Disney de encantar clientes<br>
 A meta(Goldratti)<br>
@@ -32,3 +33,8 @@ Rachel's English;<br>
 Elemental English;<br>
 English in Brazil by Carina Fragoso;<br>
 Ask Jackie;<br>
+
+#### My VSCode Extensions
+
+Dracula THeme;<br>
+Bracket Pair Colorizer 2;<br>
