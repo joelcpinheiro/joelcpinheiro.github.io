@@ -42,4 +42,4 @@ GitHub;<br>
 Docker;<br>
 Vagrant.<br>
 
-To be continued soon
+To be continued soon :)
