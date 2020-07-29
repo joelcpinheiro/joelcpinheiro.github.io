@@ -297,10 +297,25 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
+#### Reset password RHEL 7/ CentOS 7
+
+#### 1. Reboot SO;
+#### 2. On boot loader GRUB2 pressing any key and type "e";
+#### 3. Go to kernel command line and append at the final "rd.break" and press CTRL + X to boot;
+#### 4. Execute these commands below(Remount sysroot and switch to chroot):
+```sh
+mount -o remount,rw /sysroot;
+chroot /sysroot;
+```
+#### 5. Set a new password typing passwd;
+#### 6. Relabeled all files on next boot including /etc/shadow, just here :0;
+```sh
+touch /.autorelabel
+```
+#### 7. Just enough, type exit twice times and will see boot on SO.
+
+
 
 #### Check url many times using for command:
 ```sh
