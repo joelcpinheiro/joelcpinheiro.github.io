@@ -23,8 +23,8 @@ Online Courses
 <br>
 Local Events
 
-##### DOD Fortaleza 2019
-##### DOD Fortaleza 2018
+#### DOD Fortaleza 2019
+#### DOD Fortaleza 2018
 
 
 
