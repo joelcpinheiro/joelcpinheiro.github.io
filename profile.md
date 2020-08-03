@@ -1,14 +1,22 @@
-#### Do you want see my profissional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
+#### Under construction too...
+
+#### Do you want see my professional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
 
 #### Updates
 <br>
 #### Online Courses
+
+##### 2020
+
+Inglês na Rota da Fluência 3.0(Márcia Daniela)<br>
+
+
 <br>
 <br>
 <br>
-#### Events
-###### DOD Fortaleza 2019
-###### DOD Fortaleza 2018
+#### Local Events
+##### DOD Fortaleza 2019
+##### DOD Fortaleza 2018
 
 
 
