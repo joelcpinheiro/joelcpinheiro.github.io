@@ -6,15 +6,15 @@
 <br>
 Online Courses
 
-#### 2020
+2020
 
 #### Inglês na Rota da Fluência 3.0(Márcia Daniela)<br>
 
-#### 2019
+2019
 
 ...
 
-#### 2018
+2018
 
 ...
 
@@ -22,6 +22,7 @@ Online Courses
 <br>
 <br>
 Local Events
+
 ##### DOD Fortaleza 2019
 ##### DOD Fortaleza 2018
 
