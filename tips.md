@@ -298,6 +298,12 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 <br>
 <br>
 
+#### Do you change anything on interface on Ubuntu?
+```sh
+ip flush addr interface_name(ens192)
+systemctl restart networking
+```
+
 #### Reset password RHEL 7/ CentOS 7
 
 #### 1. Reboot SO;
@@ -409,7 +415,7 @@ firewall-cmd --reload
 <br>
 <br>
 
-To add IP/Network on the Fail2ban whitelist, edit the parameter "ignoreip" in the file /etc/fail2ban/jail.conf:
+#### To add IP/Network on the Fail2ban whitelist, edit the parameter "ignoreip" in the file /etc/fail2ban/jail.conf:
 
 ```sh
 ignoreip = 127.0.0.1 YOURIP YOURNETWORK
@@ -418,12 +424,12 @@ ignoreip = 127.0.0.1 YOURIP YOURNETWORK
 After restart the fail2ban service
 
 
-Unban IP Fail2ban:
+#### Unban IP Fail2ban:
 ```sh
 fail2ban-client set sshd unbanip 10.10.100.22
 ```
 
-Recognize disk in guest linux on VMware and don't needed restart:
+#### Recognize disk in guest linux on VMware and don't needed restart:
 
 ```sh
 ls /sys/class/scsi_host/ | while read host ; do echo "- - -" > /sys/class/scsi_host/$host/scan ; done
