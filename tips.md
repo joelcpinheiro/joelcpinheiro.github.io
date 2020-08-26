@@ -309,7 +309,9 @@ nmcli con mod eth0 connection.zone external
 nmcli con mod eth1 connection.zone internal
 # Doesn't hurt to re-up
 nmcli con up eth0 ; nmcli con up eth1
+```
 
+```sh
 # The external zone already has masquerade on, but just in case
 firewall-cmd --zone=external --add-masquerade --permanent
 firewall-cmd --complete-reload
@@ -320,7 +322,9 @@ external
   interfaces: eth0
 internal
   interfaces: eth1
+```
 
+```sh
 # Now, run this command to one or more IPs that needed
 
 firewall-cmd --zone=external --add-forward-port=port=8989:proto=tcp:toport=8989:toaddr=10.10.2.3 --permanent
