@@ -302,6 +302,8 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 
 #### Using a VM Linux Router to forward ports to another VMs, is so simple, run commands below:
 
+#### I supposed that you set the forward packages to 1 on file `/proc/sys/net/ipv4/ip_forward`, that's okay? 
+
 ```sh
 # Tell eth0 to be our WAN
 nmcli con mod eth0 connection.zone external
