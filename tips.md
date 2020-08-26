@@ -298,6 +298,40 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 <br>
 <br>
 
+#### Firewalld
+
+#### Using a VM Linux Router to forward ports to another VMs, is so simple, run commands below:
+
+```sh
+# Tell eth0 to be our WAN
+nmcli con mod eth0 connection.zone external
+# Tell eth1 to be our LAN (or a bridge if you have one)
+nmcli con mod eth1 connection.zone internal
+# Doesn't hurt to re-up
+nmcli con up eth0 ; nmcli con up eth1
+
+# The external zone already has masquerade on, but just in case
+firewall-cmd --zone=external --add-masquerade --permanent
+firewall-cmd --complete-reload
+
+firewall-cmd --get-active-zones
+
+external
+  interfaces: eth0
+internal
+  interfaces: eth1
+
+# Now, run this command to one or more IPs that needed
+
+firewall-cmd --zone=external --add-forward-port=port=8989:proto=tcp:toport=8989:toaddr=10.10.2.3 --permanent
+
+# Don't forget reload FireWalld
+
+firewall-cmd --reload
+
+```
+
+
 #### Do you change anything on interface on Ubuntu?
 ```sh
 ip flush addr interface_name(ens192)
