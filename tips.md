@@ -298,6 +298,14 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 <br>
 <br>
 
+
+#### check IP valid of virtual machine
+
+```sh
+curl ifconfig.me
+```
+
+
 #### Firewalld
 
 #### Using a VM Linux Router to forward ports to another VMs, is so simple, run commands below:
