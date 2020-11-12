@@ -9,6 +9,7 @@ Online Courses
 2020
 
 #### Inglês na Rota da Fluência 3.0 (Márcia Daniela)<br>
+#### Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)<br>
 
 2019
 
