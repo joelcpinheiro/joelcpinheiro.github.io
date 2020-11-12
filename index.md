@@ -1,4 +1,4 @@
-### Under construction...
+### Under construction...Stay calm and relax
 
 #### Do you want see my <a href="https://joelpinheiro.com/profile">profile?</a>
 
@@ -31,6 +31,12 @@ Rachel's English;<br>
 Elemental English;<br>
 English in Brazil by Carina Fragoso;<br>
 Ask Jackie;<br>
+
+
+
+
+
+
 
 #### My VSCode Extensions
 
