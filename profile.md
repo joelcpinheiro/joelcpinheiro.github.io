@@ -18,14 +18,13 @@ Online Courses
 
 ...
 
-<br>
-<br>
-<br>
-
 2017
 
 ...
 
+<br>
+<br>
+<br>
 <br>
 
 Local Events
