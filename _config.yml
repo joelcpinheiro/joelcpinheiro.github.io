@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "http://joelpinheiro.com" 
 # the base hostname & protocol for your site
 github_username:  joelcpinheiro
-show_downloads: "true"
+show_downloads: "false"
 google_analytics: UA-63707839-2
 
 #menus:
