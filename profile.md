@@ -6,6 +6,11 @@
 <br>
 #### Online Courses
 
+
+#### 2021
+
+AWS Academy Graduate - AWS Academy Cloud Foundations<br>
+
 #### 2020
 
 JBoss EAP Administration(ACG)<br>
