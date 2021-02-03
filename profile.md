@@ -10,11 +10,11 @@
 #### 2021
 
 AWS Academy Graduate - AWS Academy Cloud Foundations<br>
-AWS Certified Cloud Practitioner<br>
+AWS Certified Cloud Practitioner(A Cloud Guru)<br>
 
 #### 2020
 
-JBoss EAP Administration(ACG)<br>
+JBoss EAP Administration(A Cloud Guru)<br>
 Inglês na Rota da Fluência 3.0 (Márcia Daniela)<br>
 Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)<br>
 
