@@ -10,6 +10,7 @@
 #### 2021
 
 AWS Academy Graduate - AWS Academy Cloud Foundations<br>
+AWS Certified Cloud Practitioner<br>
 
 #### 2020
 
@@ -26,6 +27,11 @@ Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)<br>
 ...
 
 #### 2017
+
+...
+
+
+#### 2016
 
 ...
 
