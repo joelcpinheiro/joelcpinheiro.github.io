@@ -33,11 +33,6 @@ English in Brazil by Carina Fragoso;<br>
 Ask Jackie;<br>
 
 
-
-
-
-
-
 #### My VSCode Extensions
 
 Dracula THeme;<br>
@@ -45,7 +40,6 @@ Bracket Pair Colorizer 2;<br>
 Code Spell Checker;<br>
 GitLens;<br>
 GitHub;<br>
-Docker;<br>
 Vagrant.<br>
 
 To be continued soon :)
