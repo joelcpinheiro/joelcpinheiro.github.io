@@ -4,6 +4,12 @@
 
 command line one, two and more....
 
+#### Install Docker by command line
+
+```sh
+curl -fsSL https://get.docker.com | sh;
+```
+
 #### Clean docker containers logs of Operational System
  
 ```sh
