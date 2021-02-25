@@ -18,36 +18,36 @@ title: Joel Pinheiro
 Manual de DevOps
 O Projeto Fenix
 Entrega Contínua
-TI Lean<br>
-Toyota Kata<br>
-Scrum Essencial<br>
+TI Lean
+Toyota Kata
+Scrum Essencial
 Scrum a arte de fazer o dobro do tempo
 
-Comunicação não violenta<br>
-O jeito Disney de encantar clientes<br>
-A meta(Goldratti)<br>
-A startup enxuta(Eric Ries)<br>
-Implementando o desenvolvimento lean de software<br>
-Microserviços prontos para a produção<br>
+Comunicação não violenta
+O jeito Disney de encantar clientes
+A meta(Goldratti)
+A startup enxuta(Eric Ries)
+Implementando o desenvolvimento lean de software
+Microserviços prontos para a produção
 
 #### Learning English
 
-Search on youtube:<br>
-Crazy Koller;<br>
-Small Advantages;<br>
-Rachel's English;<br>
-Elemental English;<br>
-English in Brazil by Carina Fragoso;<br>
-Ask Jackie;<br>
+Search on youtube:
+Crazy Koller;
+Small Advantages;
+Rachel's English;
+Elemental English;
+English in Brazil by Carina Fragoso;
+Ask Jackie;
 
 
 #### My VSCode Extensions
 
-Dracula THeme;<br>
-Bracket Pair Colorizer 2;<br>
-Code Spell Checker;<br>
-GitLens;<br>
-GitHub;<br>
-Vagrant.<br>
+Dracula THeme;
+Bracket Pair Colorizer 2;
+Code Spell Checker;
+GitLens;
+GitHub;
+Vagrant.
 
 To be continued soon :)
