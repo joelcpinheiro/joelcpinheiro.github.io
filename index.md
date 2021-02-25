@@ -8,14 +8,14 @@ detail_image: assets/theme_logo.svg
 
 ---
 
-### Under construction...Stay calm and relax(not really)
+# Under construction...Stay calm and relax(not really)
 
-#### Do you want see my <a href="https://joelpinheiro.com/profile">profile?</a>
+# Do you want see my <a href="https://joelpinheiro.com/profile">profile?</a>
 
-#### <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
-#### Latest good content shared to you click<a href="https://github.com/joelcpinheiro?tab=repositories"> here</a>
+# <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
+# Latest good content shared to you click<a href="https://github.com/joelcpinheiro?tab=repositories"> here</a>
 
-#### Learning books about DevOps
+# Learning books about DevOps
 
 Manual de DevOps<br>
 O Projeto Fenix<br>
