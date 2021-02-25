@@ -15,9 +15,9 @@ title: Joel Pinheiro
 
 # Learning books about DevOps
 
-Manual de DevOps<br>
-O Projeto Fenix<br>
-Entrega Contínua<br>
+Manual de DevOps
+O Projeto Fenix
+Entrega Contínua
 TI Lean<br>
 Toyota Kata<br>
 Scrum Essencial<br>
