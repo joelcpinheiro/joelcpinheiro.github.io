@@ -7,36 +7,36 @@ title: Tips for life
 
 ### Always share my content to growing the power of internet!
 
-#### Docker
+# Docker
 
 command line one, two and more....
 
-#### Install Docker by command line
+# Install Docker by command line
 
 ```sh
 curl -fsSL https://get.docker.com | sh;
 ```
 
-#### Clean docker containers logs of Operational System
+# Clean docker containers logs of Operational System
  
 ```sh
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
 ```
 
-#### Remove volumes don't used:
+# Remove volumes don't used:
 ```sh
 docker volume rm $(docker volume ls -qf dangling=true)
 ```
-#### Remove images don't used:
+# Remove images don't used:
 
 ```sh
 docker image prune -a -f
 ```
 
 
-#### Proxmox
+# Proxmox
 
-#### Import guest ESXi to Proxmox and stop that spend money with VMware
+# Import guest ESXi to Proxmox and stop that spend money with VMware
 
 I supose that you know that need shutdown the guest and export to ovf, it's okay?
 
@@ -62,31 +62,31 @@ Now, you could power on the virtual machine with success and check if is very we
 
 An observation, do you have adjust the interface name on the guest, for example, interface ens192 was recreated to eth0.
 
-<br>
-<br>
+
+
 ***************************************************************************************************
 ***************************************************************************************************
 Proof of Concept Environment Cluster Docker Swarm
 ***************************************************************************************************
 ***************************************************************************************************
-<br>
-<br>
-#### POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
+
+
+# POC using Nginx(Reverse Proxy), Docker Swarm, GlusterFS and the tools Portainer, Traefik and Jenkins CI, see the topology below for more information.
 
 Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS.
 
 See the Environment<a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
 
-#### Nginx(Reverse Proxy)
+# Nginx(Reverse Proxy)
 
 See instructions on the link of the project, on <a href="https://github.com/joelcpinheiro/revproxy-nginx">this link.</a>
 
-#### Docker Swarm implementation on CentOS 7 with steps...
-###### Ps. Soon a ansibe playbook will come out of the oven :)
-<br>
-#### I use 3 managers in Docker Swarm
+# Docker Swarm implementation on CentOS 7 with steps...
+### Ps. Soon a ansibe playbook will come out of the oven :)
 
-#### 1. Prepare SO first and install docker-ce:
+# I use 3 managers in Docker Swarm
+
+# 1. Prepare SO first and install docker-ce:
 
 ```sh
 setenforce 0
@@ -113,8 +113,8 @@ systemctl enable docker
 systemctl start docker
 
 ```
-<br>
-#### Start Docker Swarm on the three nodes as manager, executing the command below:
+
+# Start Docker Swarm on the three nodes as manager, executing the command below:
 
 ```sh
 
@@ -127,9 +127,9 @@ docker swarm init
 docker swarm join-token manager
 
 ```
-#### PLEASE ATTENTION ####
+# PLEASE ATTENTION #
 Don't forget of allow the communication port 2377 on iptables to cluster work successfully, insert the line on the /etc/sysconfig/iptables:
-<br>
+
 ```sh
 -A INPUT -s 192.168.10.0/24 -m state --state NEW -j ACCEPT
 ```
@@ -137,7 +137,7 @@ Don't forget of allow the communication port 2377 on iptables to cluster work su
 Now you should install the portainer, accessing one server manage node and view the step 2.
 The Portainer is a GUI manager wich permit view all the resources on your cluster of Docker Swarm.
 
-#### 2. Instructions to run Portainer on Docker Swarm Managers
+# 2. Instructions to run Portainer on Docker Swarm Managers
 
 ```sh
 # Install based on link https://www.portainer.io/installation/
@@ -153,7 +153,7 @@ The Traefik will be manager all the applications on the containers and will serv
 
 Access one of managers on Docker Swarm and execute the command below.
 
-#### 3. Run the Traefik on Docker Swarm Managers
+# 3. Run the Traefik on Docker Swarm Managers
 
 ```sh
 docker network create --driver=overlay traefik-pub
@@ -189,7 +189,7 @@ docker service create \
 
 Now the application call ussuapp can be accessed by URL ussu.com.
 
-#### 4. Instructions to run Jenkins on Docker host homologation
+# 4. Instructions to run Jenkins on Docker host homologation
 ```sh
 docker run \
   -u root \
@@ -206,7 +206,7 @@ Reference Link: https://jenkins.io/doc/book/installing/
 
 Now access the link IP:8080 and configure the Jenkins.
 
-#### 5. Instructions to install GlusterFS
+# 5. Instructions to install GlusterFS
 
 ```sh
 yum -y install centos-release-gluster6
@@ -217,7 +217,7 @@ yum --enablerepo=centos-gluster6 -y install glusterfs glusterfs-fuse
 
 ```
 Create the directory `/replica/brick/x/brk`, where x are a node number and execute the command on the first docker node:
-<br>
+
 
 ```sh
 gluster volume create gfs \
@@ -241,13 +241,13 @@ gluster volume set gfs auth.allow IPnode01,IPnode02,IPnode03
 gluster volume start gfs
 
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
 
-#### Zabbix Server
+
+
+
+
+
+# Zabbix Server
 
 Check if UserParameter exists on zabbix-agent:
 
@@ -281,49 +281,49 @@ DELETE FROM trends WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interval * 2
 DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interval * 24 * 60 * 60);
 ```
 
-#### Kubernetes
+# Kubernetes
 
-#### I will add content shortly ;)
-<br>
-<br>
-<br>
-
-#### Rancher
-
-#### I will add content shortly ;)
-<br>
-<br>
-<br>
-
-##### Commands...
-
-#### I will add content shortly ;)
-<br>
-<br>
-<br>
-
-#### Linux
-
-#### Linux? He change my life <3 <3 <3....not so much hehe
-<br>
-<br>
-<br>
-<br>
-<br>
+# I will add content shortly ;)
 
 
-#### check IP valid of virtual machine
+
+
+# Rancher
+
+# I will add content shortly ;)
+
+
+
+
+## Commands...
+
+# I will add content shortly ;)
+
+
+
+
+# Linux
+
+# Linux? He change my life <3 <3 <3....not so much hehe
+
+
+
+
+
+
+
+# check IP valid of virtual machine
 
 ```sh
 curl ifconfig.me
 ```
 
 
-#### Firewalld
+# Firewalld
 
-#### Using a VM Linux Router to forward ports to another VMs, is so simple, run commands below:
+# Using a VM Linux Router to forward ports to another VMs, is so simple, run commands below:
 
-#### I supposed that you set the forward packages to 1 on file `/proc/sys/net/ipv4/ip_forward`, that's okay? 
+# I supposed that you set the forward packages to 1 on file `/proc/sys/net/ipv4/ip_forward`, that's okay? 
 
 ```sh
 # Tell eth0 to be our WAN
@@ -359,65 +359,65 @@ firewall-cmd --reload
 ```
 
 
-#### Do you change anything on interface on Ubuntu?
+# Do you change anything on interface on Ubuntu?
 ```sh
 ip flush addr interface_name(ens192)
 systemctl restart networking
 ```
 
-#### Reset password RHEL 7/ CentOS 7
+# Reset password RHEL 7/ CentOS 7
 
-#### 1. Reboot SO;
-#### 2. On boot loader GRUB2 pressing any key and type "e";
-#### 3. Go to kernel command line and append at the final "rd.break" and press CTRL + X to boot;
-#### 4. Execute these commands below(Remount sysroot and switch to chroot):
+# 1. Reboot SO;
+# 2. On boot loader GRUB2 pressing any key and type "e";
+# 3. Go to kernel command line and append at the final "rd.break" and press CTRL + X to boot;
+# 4. Execute these commands below(Remount sysroot and switch to chroot):
 ```sh
 mount -o remount,rw /sysroot;
 chroot /sysroot;
 ```
-#### 5. Set a new password typing passwd;
-#### 6. Relabeled all files on next boot including /etc/shadow, just here :0;
+# 5. Set a new password typing passwd;
+# 6. Relabeled all files on next boot including /etc/shadow, just here :0;
 ```sh
 touch /.autorelabel
 ```
-#### 7. Just enough, type exit twice times and will see boot on SO.
+# 7. Just enough, type exit twice times and will see boot on SO.
 
 
 
-#### Check url many times using for command:
+# Check url many times using for command:
 ```sh
 for i in `seq 1 20`; do curl http://site; done
 ```
 
-#### Check logins of a specific user on CentOS 7 distribution:
+# Check logins of a specific user on CentOS 7 distribution:
 
 ```sh
 utmpdump /var/log/wtmp | grep -E "\[7].*joel" | awk -v OFS=" ## " 'BEGIN {FS="] "}; {print $2,$4,$7,$8}' | sed -e 's/\[//g' -e 's/\]//g'
 ```
 
-#### clean all routes:
+# clean all routes:
 
 ```sh
 ip route flush table main
 ```
 
-#### Update URL git project:
+# Update URL git project:
 ```sh
 git remote set-url origin http://git.domain.com/project.git
 ```
-#### Store credential user git(github/gitlab/etc...)
+# Store credential user git(github/gitlab/etc...)
 ```sh
 git config credential.helper store
 ```
-#### Good jenkins plugins:
+# Good jenkins plugins:
 
-Blue Ocean<br>
-Chucknorris Plugin<br>
-Gitlab<br>
-Green Bals<br>
-SSH Plugin<br>
+Blue Ocean
+Chucknorris Plugin
+Gitlab
+Green Bals
+SSH Plugin
 
-#### Disable IPv6 on debian
+# Disable IPv6 on debian
 Insert on the file /etc/sysctl.conf the parameters bellow:
 
 ```sh
@@ -427,7 +427,7 @@ net.ipv6.conf.lo.disable_ipv6 = 1
 ```
 
 
-#### Mount an network unit of rwindows to GNU/Linux:
+# Mount an network unit of rwindows to GNU/Linux:
 
 ```sh
 mount.cifs //Host/<Pasta>/ /Local_Destino -o domain=dominio,username=<user>
@@ -435,16 +435,16 @@ mount.cifs //192.168.0.20/tmp/ /opt/tmp/ -o domain=meudominio,username=joel.pinh
 ```
 
 
-<br>
-<br>
-<br>
 
-####  VSFTP best configuration on CentOS 7
 
-Comment anonymous_enable=YES<br>
-Uncomment chroot_local_user=YES<br>
-Uncomment chroot_list_file=/etc/vsftpd/chroot_list, create this file and add the user to access ftp...<br>
-Adjust listen=YES and listen_ipv6=NO<br>
+
+
+#  VSFTP best configuration on CentOS 7
+
+Comment anonymous_enable=YES
+Uncomment chroot_local_user=YES
+Uncomment chroot_list_file=/etc/vsftpd/chroot_list, create this file and add the user to access ftp...
+Adjust listen=YES and listen_ipv6=NO
 
 Insert the parameters below:
 
@@ -470,13 +470,13 @@ Case have a firewalld enabled, execute these commands below:
 firewall-cmd --add-service=ftp --permanent
 firewall-cmd --reload
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
 
-#### To add IP/Network on the Fail2ban whitelist, edit the parameter "ignoreip" in the file /etc/fail2ban/jail.conf:
+
+
+
+
+
+# To add IP/Network on the Fail2ban whitelist, edit the parameter "ignoreip" in the file /etc/fail2ban/jail.conf:
 
 ```sh
 ignoreip = 127.0.0.1 YOURIP YOURNETWORK
@@ -485,28 +485,28 @@ ignoreip = 127.0.0.1 YOURIP YOURNETWORK
 After restart the fail2ban service
 
 
-#### Unban IP Fail2ban:
+# Unban IP Fail2ban:
 ```sh
 fail2ban-client set sshd unbanip 10.10.100.22
 ```
 
-#### Recognize disk in guest linux on VMware and don't needed restart:
+# Recognize disk in guest linux on VMware and don't needed restart:
 
 ```sh
 ls /sys/class/scsi_host/ | while read host ; do echo "- - -" > /sys/class/scsi_host/$host/scan ; done
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-#### Install LetsEncrypt on Zimbra
+
+
+
+
+
+
+# Install LetsEncrypt on Zimbra
 
 Reference: https://respirandolinux.com.br/2017/05/13/zimbra-8-7-implementando-certificado-assinado-com-lets-encrypt/ 
-<br>
-Execute the commands bellow case occurred an error of ldap with TLS <br>
+
+Execute the commands bellow case occurred an error of ldap with TLS 
 ```sh
 zmlocalconfig -e ssl_allow_untrusted_certs=true 
 zmlocalconfig -e ldap_starttls_supported=0
@@ -514,17 +514,17 @@ zmlocalconfig -e ldap_starttls_required=false
 zmlocalconfig -e ldap_common_require_tls=0
 ```
 
-#### PowerShell Commands
+# PowerShell Commands
 Reference:
 
 ```sh
 Soon as possible
 
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+
+
 
