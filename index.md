@@ -30,7 +30,7 @@ A startup enxuta(Eric Ries)
 Implementando o desenvolvimento lean de software
 Microserviços prontos para a produção
 
-#### Learning English
+# Learning English
 
 Search on youtube:
 Crazy Koller;
@@ -41,7 +41,7 @@ English in Brazil by Carina Fragoso;
 Ask Jackie;
 
 
-#### My VSCode Extensions
+# My VSCode Extensions
 
 Dracula THeme;
 Bracket Pair Colorizer 2;
