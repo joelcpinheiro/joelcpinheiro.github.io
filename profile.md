@@ -6,53 +6,44 @@ title: My Profile
 ---
 
 
-#### Under construction too...:P
+# Under construction too...:P
+# Do you want see my professional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
 
-#### Do you want see my professional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
+# Updates
+# Online Courses
 
-#### Updates
-<br>
-#### Online Courses
+# 2021
 
+AWS Academy Graduate - AWS Academy Cloud Foundations
+AWS Certified Cloud Practitioner(A Cloud Guru)
+# 2020
 
-#### 2021
+JBoss EAP Administration(A Cloud Guru)
+Inglês na Rota da Fluência 3.0 (Márcia Daniela)
+Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)
 
-AWS Academy Graduate - AWS Academy Cloud Foundations<br>
-AWS Certified Cloud Practitioner(A Cloud Guru)<br>
-
-#### 2020
-
-JBoss EAP Administration(A Cloud Guru)<br>
-Inglês na Rota da Fluência 3.0 (Márcia Daniela)<br>
-Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)<br>
-
-#### 2019
+# 2019
 
 ...
 
-#### 2018
+# 2018
 
 ...
 
-#### 2017
+# 2017
 
 ...
 
 
-#### 2016
+# 2016
 
 ...
-
-<br>
-<br>
-<br>
-<br>
 
 Local Events
 
-#### DOD Fortaleza 2020
-#### DOD Fortaleza 2019
-#### DOD Fortaleza 2018
+# DOD Fortaleza 2020
+# DOD Fortaleza 2019
+# DOD Fortaleza 2018
 
 
 
