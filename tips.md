@@ -498,10 +498,6 @@ ls /sys/class/scsi_host/ | while read host ; do echo "- - -" > /sys/class/scsi_h
 
 
 
-
-
-
-
 # Install LetsEncrypt on Zimbra
 
 Reference: https://respirandolinux.com.br/2017/05/13/zimbra-8-7-implementando-certificado-assinado-com-lets-encrypt/ 
