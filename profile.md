@@ -1,3 +1,11 @@
+---
+layout: page
+permalink: /profile
+permalink_name: /profile
+title: My Profile
+---
+
+
 #### Under construction too...:P
 
 #### Do you want see my professional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?

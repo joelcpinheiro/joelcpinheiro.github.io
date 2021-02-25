@@ -1,3 +1,10 @@
+---
+layout: page
+permalink: /tips
+permalink_name: /tips
+title: Tips for life
+---
+
 ### Always share my content to growing the power of internet!
 
 #### Docker
