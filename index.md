@@ -4,8 +4,6 @@ permalink: /
 permalink_name: /home
 title: Joel Pinheiro
 
-#detail_image: assets/theme_logo.svg
-
 ---
 
 # Under construction...Stay calm and relax(not really)
