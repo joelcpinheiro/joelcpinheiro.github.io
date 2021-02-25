@@ -1,3 +1,13 @@
+---
+layout: home
+permalink: /
+permalink_name: /home
+title: Joel Pinheiro
+
+detail_image: assets/theme_logo.svg
+
+---
+
 ### Under construction...Stay calm and relax(not really)
 
 #### Do you want see my <a href="https://joelpinheiro.com/profile">profile?</a>

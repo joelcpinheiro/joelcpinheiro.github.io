@@ -1,6 +1,6 @@
 # Site settings
 
-remote_theme: jekyll-theme-cayman
+remote_theme: jekyll-shell-theme
 title: Joel Pinheiro
 email: joelcostapinheiro @ gmail . com
 description: > # this means to ignore newlines until "baseurl:"
@@ -12,8 +12,8 @@ github_username:  joelcpinheiro
 show_downloads: false
 google_analytics: UA-63707839-2
 
-baseurl: "/joelcpinheiro1.github.io" # the subpath of your site
-url: "http://joelpinheiro.com/joelcpinheiro1.github.io/" # the base hostname & protocol for your site
+baseurl: "/joelcpinheiro.github.io" # the subpath of your site
+url: "http://joelpinheiro.com/joelcpinheiro.github.io/" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  
 
