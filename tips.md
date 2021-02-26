@@ -6,7 +6,9 @@ title: Tips for life
 ---
 
 
-See tips for Docker click <a href="https://joelpinheiro.com/post-docker-2021-02-25">here</a>
+See my tips for Nomad click [/post-nomad-2021-02-26](here)
+
+
 See tips for Proxmox click <a href="https://joelpinheiro.com/post-proxmox-2021-02-24">here</a>
 
 
