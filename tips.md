@@ -5,6 +5,11 @@ permalink_name: /tips
 title: Tips for life
 ---
 
+
+See tips for Docker here <a href="https://joelpinheiro.com/post-docker-2021-02-25">here</a>
+See tips for Proxmox here <a href="https://joelpinheiro.com/post-proxmox-2021-02-24">here</a>
+
+
 ### Always share my content to growing the power of internet!
 
 # Docker
