@@ -7,8 +7,6 @@ title: Tips for life
 
 
 See my tips for Nomad click [here](post-nomad-2021-02-26)
-
-
 See tips for Proxmox click <a href="https://joelpinheiro.com/post-proxmox-2021-02-24">here</a>
 See tips for Nomad click <a href="https://joelpinheiro.com/post-nomad-2021-02-26">here</a>
 
