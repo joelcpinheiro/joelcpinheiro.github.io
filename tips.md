@@ -8,7 +8,7 @@ title: Tips for life
 
 See tips for Docker click <a href="https://joelpinheiro.com/post-docker-2021-02-25">here</a>
 See tips for Proxmox click <a href="https://joelpinheiro.com/post-proxmox-2021-02-24">here</a>
-
+See tips for Nomad click <a href="https://joelpinheiro.com/post-nomad-2021-02-26">here</a>
 
 ### Always share my content to growing the power of internet!
 
