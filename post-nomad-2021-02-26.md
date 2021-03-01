@@ -51,3 +51,7 @@ nomad server members
 ```sh
 nomad node status
 ```
+
+# Process to upgrade jobs on nomad
+
+Change > Plan > Run
