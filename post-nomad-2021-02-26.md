@@ -55,3 +55,11 @@ nomad node status
 # Process to upgrade jobs on nomad
 
 Change > Plan > Run
+
+# Blue and Green Canary Deployments
+
+```sh
+
+```
+
+
