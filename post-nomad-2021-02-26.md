@@ -62,4 +62,8 @@ Change > Plan > Run
 
 ```
 
+# See logs of one JOB
 
+```sh
+nomad alloc logs IDJOB
+```
