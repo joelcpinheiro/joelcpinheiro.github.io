@@ -62,6 +62,12 @@ Change > Plan > Run
 
 ```
 
+# Create a new JOB called example
+
+```sh
+nomad job init -short example.nomad
+```
+
 # See logs of one JOB
 
 ```sh
