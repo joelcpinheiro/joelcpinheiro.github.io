@@ -28,6 +28,7 @@ highlighter: rouge
 header_pages:
   - index.md
   - tips.md
+  - brandnew.md
   - profile.md
 
 # set the size of the text to 'large' or 'small', default is small
