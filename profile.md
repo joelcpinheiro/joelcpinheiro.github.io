@@ -10,9 +10,10 @@ title: My Profile
 # Do you want see my professional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
 
 # Updates
-# Online Courses
+## Online Courses
 
 # 2021
+Learning HashiCorp Nomad(A Cloud Guru)
 AWS Academy Graduate - AWS Academy Cloud Foundations
 AWS Certified Cloud Practitioner(A Cloud Guru)
 # 2020
@@ -39,6 +40,9 @@ Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)
 # DOD Fortaleza 2020
 # DOD Fortaleza 2019
 # DOD Fortaleza 2018
+
+
+
 
 
 
