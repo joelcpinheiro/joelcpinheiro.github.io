@@ -10,7 +10,7 @@ title: Proof of Concept Environment Cluster Docker Swarm
 
 Was used in this project six Virtual Machines, one to run containers at homologation, one to serve pages of applications(Nginx) using how reverse proxy, three Managers on Docker Swarm and one server to Storage with GlusterFS.
 
-See the Environment<a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
+See the Environment <a href="https://go.gliffy.com/go/publish/8047443">Topology</a>
 
 # Nginx(Reverse Proxy)
 
