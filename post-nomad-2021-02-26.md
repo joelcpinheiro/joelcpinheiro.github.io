@@ -12,6 +12,16 @@ title: Proxmox tips
 
 # Some commands learned on until at moment...
 
+# Add on your .bash_profile the environment variables for nomad, that are:
+
+```sh
+NOMAD_ADDR=https://127.0.0.1:4646
+NOMAD_CACERT=~/nomad-certs/nomad-ca.pem
+NOMAD_CLIENT_CERT=~/nomad-certs/cli.pem
+NOMAD_CLIENT_KEY=~/nomad-certs/cli-key.pem
+NOMAD_TOKEN="secretid" # in case of use ACL
+```
+
 # To create a server member, add the param ```datacenter = namedc``` and remove or comment block client, like an example bellow:
 
 ```sh
