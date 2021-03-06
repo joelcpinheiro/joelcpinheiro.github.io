@@ -6,7 +6,9 @@ title: Proxmox tips
 ---
 
 
-# Little thing about nomad used on ACG Course
+# Little thing about nomad used on ACG Course.
+
+# My personal challenge is create an environment and share the content on GitHub.
 
 # Some commands learned on until at moment...
 
