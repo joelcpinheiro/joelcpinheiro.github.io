@@ -7,9 +7,7 @@ title: Proxmox tips
 
 
 # Little thing about nomad used on ACG Course.
-
 # My personal challenge is create an environment and share the content on GitHub.
-
 # Some commands learned on until at moment...
 
 # Add on your .bash_profile the environment variables for nomad, that are:
@@ -52,7 +50,6 @@ client {
 
 ```
 
-
 # Check node member of cluster
 ```sh
 nomad server members
@@ -70,9 +67,31 @@ Change > Plan > Run
 
 # Blue and Green Canary Deployments
 
-```sh
+# Under update, insert the code below:
 
+```sh
+update {
+    max_parallel = 1
+    min_healthy_time = "10s"
+    healthy_deadline = "3m"
+    progress_deadline = "10m"
+    auto_revert = false
+    canary = 2
+}
 ```
+
+# Modify a job with a version of your image, for example...
+
+# And run a example job again:
+```sh
+nomad job run example.nomad
+```
+
+# Finally, promote a job using the command:
+```sh
+nomad deployment promote IDOFJOB
+```
+
 
 # Create a new JOB called example
 
