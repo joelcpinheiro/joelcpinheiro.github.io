@@ -8,7 +8,7 @@ title: Tips for life
 
 See my tips for Nomad click [here](post-nomad-2021-02-26).
 See my POC using Docker Swarm, click [here](post-swarmpoc-2021-02-28).
-See my WordPress CMS on docker, click [here](post-swarmpoc-2021-02-28)...ASAP
+See my WordPress CMS on docker, click <a href="https://github.com/joelcpinheiro/docker_wpmultisite"> here</a>.
 See my Jboss commands references [here](post-swarmpoc-2021-02-28)...ASAP
 See someone tips for Proxmox click [here](post-proxmox-2021-02-24).
 
@@ -27,6 +27,12 @@ command line one, two and more....
 curl -fsSL https://get.docker.com | sh;
 ```
 
+# View docker container logs:
+
+```sh
+docker logs --follow --tail 20  containername
+```
+
 # Clean docker containers logs of Operational System
  
 ```sh
@@ -43,9 +49,13 @@ docker volume rm $(docker volume ls -qf dangling=true)
 docker image prune -a -f
 ```
 
+# Install Grafana Loki whith docker compose:
 
-
-
+```sh
+wget https://raw.githubusercontent.com/grafana/loki/v2.1.0/production/docker-compose.yaml -O docker-compose.yaml;
+docker-compose -f docker-compose.yaml up
+```
+# Access WebUI http://IPGRAFANALOKI:3000 and insert a loki data source plugin.
 
 
 # Zabbix Server
