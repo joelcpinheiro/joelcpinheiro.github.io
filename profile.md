@@ -35,11 +35,15 @@ Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)
 
 ...
 
+# Online Events
+
+AWS Cloud Practitioner Essentials Day(KA Solution, March 2021)
+DOD Fortaleza 2020
+
 # Local Events
 
-# DOD Fortaleza 2020
-# DOD Fortaleza 2019
-# DOD Fortaleza 2018
+DOD Fortaleza 2019
+DOD Fortaleza 2018
 
 
 
