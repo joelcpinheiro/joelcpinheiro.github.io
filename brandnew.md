@@ -12,9 +12,6 @@ title: My thoughts about my career and life too
 
 # Stuff it was look like better, but....
 
+# At March, 8, 2021...
 
-### testing three hashes
-
-#### testing four hashes
-
-##### testing five hashes
+My point of view about the last webinar event called "AWS Cloud Practitioner Essentials Day", at last weekend(saturday), was a good overview, but far from sufficient to be a preparatory for CLF-C01 Exam, because have much content to explain.
