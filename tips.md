@@ -2,24 +2,16 @@
 layout: page
 permalink: /tips
 permalink_name: /tips
-title: Tips for life
+title: Always share my content to growing the power of internet!
 ---
-
 
 See my tips for Nomad click [here](post-nomad-2021-02-26).
 See my POC using Docker Swarm, click [here](post-swarmpoc-2021-02-28).
 See my WordPress CMS on docker, click <a href="https://github.com/joelcpinheiro/docker_wpmultisite">here</a>.
-See my Jboss commands references [here](post-swarmpoc-2021-02-28)...ASAP
+See my Jboss commands references [here](post-jboss-2021-03-09)
 See someone tips for Proxmox click [here](post-proxmox-2021-02-24).
 
-
-
-
-### Always share my content to growing the power of internet!
-
 # Docker
-
-command line one, two and more....
 
 # Install Docker by command line
 
@@ -33,7 +25,7 @@ curl -fsSL https://get.docker.com | sh;
 docker logs --follow --tail 20  containername
 ```
 
-# Clean docker containers logs of Operational System
+# Clean docker containers all logs of Operational System
  
 ```sh
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
@@ -49,13 +41,21 @@ docker volume rm $(docker volume ls -qf dangling=true)
 docker image prune -a -f
 ```
 
-# Install Grafana Loki whith docker compose:
+# Install Grafana Loki with docker compose:
 
 ```sh
 wget https://raw.githubusercontent.com/grafana/loki/v2.1.0/production/docker-compose.yaml -O docker-compose.yaml;
 docker-compose -f docker-compose.yaml up
 ```
 # Access WebUI http://IPGRAFANALOKI:3000 and insert a loki data source plugin.
+
+
+# Kubernetes
+
+# I will add content shortly ;)
+
+
+
 
 
 # Zabbix Server
@@ -81,47 +81,23 @@ SET @trends_interval = 90;
 DELETE FROM alerts WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
 DELETE FROM acknowledges WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
 DELETE FROM events WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
-
 DELETE FROM history WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
 DELETE FROM history_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
 DELETE FROM history_str WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
 DELETE FROM history_text WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
 DELETE FROM history_log WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@history_interval * 24 * 60 * 60);
-
 DELETE FROM trends WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interval * 24 * 60 * 60);
 DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interval * 24 * 60 * 60);
 ```
-
-# Kubernetes
-
-# I will add content shortly ;)
-
-
-
-
-# Rancher
-
-# I will add content shortly ;)
-
-
-
 
 ## Commands...
 
 # I will add content shortly ;)
 
 
-
-
 # Linux
 
 # Linux? He change my life <3 <3 <3....not so much hehe
-
-
-
-
-
-
 
 # check IP valid of virtual machine
 
@@ -129,6 +105,25 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 curl ifconfig.me
 ```
 
+# Install Terraform on CentOS/RHEL
+
+Install package:
+
+```sh
+yum install -y yum-utils
+```
+
+Add repo on yum-config-manager:
+
+```sh
+yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+```
+
+Now, install Terraform:
+
+```sh
+yum -y install terraform
+```
 
 # Firewalld
 
@@ -168,7 +163,6 @@ firewall-cmd --zone=external --add-forward-port=port=8989:proto=tcp:toport=8989:
 firewall-cmd --reload
 
 ```
-
 
 # Do you change anything on interface on Ubuntu?
 ```sh
@@ -237,18 +231,12 @@ net.ipv6.conf.default.disable_ipv6 = 1
 net.ipv6.conf.lo.disable_ipv6 = 1
 ```
 
-
 # Mount an network unit of rwindows to GNU/Linux:
 
 ```sh
 mount.cifs //Host/<Pasta>/ /Local_Destino -o domain=dominio,username=<user>
 mount.cifs //192.168.0.20/tmp/ /opt/tmp/ -o domain=meudominio,username=joel.pinheiro
 ```
-
-
-
-
-
 
 #  VSFTP best configuration on CentOS 7
 
@@ -282,11 +270,6 @@ firewall-cmd --add-service=ftp --permanent
 firewall-cmd --reload
 ```
 
-
-
-
-
-
 # To add IP/Network on the Fail2ban whitelist, edit the parameter "ignoreip" in the file /etc/fail2ban/jail.conf:
 
 ```sh
@@ -301,12 +284,11 @@ After restart the fail2ban service
 fail2ban-client set sshd unbanip 10.10.100.22
 ```
 
-# Recognize disk in guest linux on VMware and don't needed restart:
+# Recognize disk in guest linux on ESXi(VMware) and don't needed restart:
 
 ```sh
 ls /sys/class/scsi_host/ | while read host ; do echo "- - -" > /sys/class/scsi_host/$host/scan ; done
 ```
-
 
 
 # Install LetsEncrypt on Zimbra
@@ -325,13 +307,8 @@ zmlocalconfig -e ldap_common_require_tls=0
 Reference:
 
 ```sh
-Soon as possible
+As soon as possible.
 
 ```
-
-
-
-
-
 
 
