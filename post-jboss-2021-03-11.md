@@ -98,6 +98,6 @@ vim /opt/jboss-eap/standalone/configuration/logging.properties
 ```
 
 # Setting users
-
+.....
 # Deploy a new application
-
+.....
