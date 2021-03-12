@@ -8,38 +8,8 @@ title: Always share my content to growing the power of internet!
 See my tips for Nomad click [here](post-nomad-2021-02-26).
 See my POC using Docker Swarm, click [here](post-swarmpoc-2021-02-28).
 See my WordPress CMS on docker, click <a href="https://github.com/joelcpinheiro/docker_wpmultisite">here</a>.
-See my Jboss commands references [here](post-jboss-2021-03-09)
+See my Jboss commands reference [here](post-jboss-2021-03-11)
 See someone tips for Proxmox click [here](post-proxmox-2021-02-24).
-
-# Docker
-
-# Install Docker by command line
-
-```sh
-curl -fsSL https://get.docker.com | sh;
-```
-
-# View docker container logs:
-
-```sh
-docker logs --follow --tail 20  containername
-```
-
-# Clean docker containers all logs of Operational System
- 
-```sh
-truncate -s 0 /var/lib/docker/containers/*/*-json.log
-```
-
-# Remove volumes don't used:
-```sh
-docker volume rm $(docker volume ls -qf dangling=true)
-```
-# Remove images don't used:
-
-```sh
-docker image prune -a -f
-```
 
 # Install Grafana Loki with docker compose:
 
