@@ -97,7 +97,10 @@ Now you can access the Management Console http://IP:9990
 vim /opt/jboss-eap/standalone/configuration/logging.properties
 ```
 
-# Setting users
-.....
+# Create a new user and setting password via CLI:
+
+```sh
+/opt/jboss-eap/bin/add-user.sh -u 'joel' -p 'password'
+```
 # Deploy a new application
 .....
