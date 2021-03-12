@@ -1,12 +1,11 @@
 ---
 layout: page
 permalink: /post-jboss-2021-03-11
-permalink_name: /post-jboss-2021-03-11
 title: Jboss standalone tips
 ---
 
 # Jboss best commands using for me at the ACG Course
-
+# CHALLENGE: Create a Environment using Terraform + Ansible and JBoss docker image too.
 # Installing OpenJDK:
 ```sh
 sudo yum -y install java-11-openjdk-devel
@@ -62,4 +61,12 @@ sudo chown -R jboss-eap:jboss-eap /var/run/jboss-eap/
 # Change the ownership of /opt/jboss-eap as well:
 ```sh
 sudo chown -R jboss-eap:jboss-eap /opt/jboss-eap/
+```
+
+# Enable Management Console Web Interface
+
+# And finally start service with this command:
+
+```sh
+systemctl start jboss-eap-rhel
 ```
