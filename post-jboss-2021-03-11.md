@@ -65,8 +65,39 @@ sudo chown -R jboss-eap:jboss-eap /opt/jboss-eap/
 
 # Enable Management Console Web Interface
 
+```sh
+vim /opt/jboss-eap/standalone/configuration/standalone.xml
+```
+
+# Where you see management block, change the localhost IP(127.0.0.1) to 0.0.0.0(all interfaces), line 493.
+
+```sh
+<interfaces>
+    <interface name="management">
+        <inet-address value="${jboss.bind.address.management:0.0.0.0}"/>
+    </interface>
+    <interface name="public">
+        <inet-address value="${jboss.bind.address:0.0.0.0}"/>
+    </interface>
+</interfaces>
+```
+
 # And finally start service with this command:
 
 ```sh
 systemctl start jboss-eap-rhel
 ```
+
+Now you can access the Management Console http://IP:9990 
+
+# Update log level if you want adjusting the parameter ```logger.level```(line 8):
+
+
+```sh
+vim /opt/jboss-eap/standalone/configuration/logging.properties
+```
+
+# Setting users
+
+# Deploy a new application
+
