@@ -13,6 +13,7 @@ title: My Profile
 ## Online Courses
 
 # 2021
+Managing AWS with Ansible(A Cloud Guru)
 Learning HashiCorp Nomad(A Cloud Guru)
 AWS Academy Graduate - AWS Academy Cloud Foundations
 AWS Certified Cloud Practitioner(A Cloud Guru)
