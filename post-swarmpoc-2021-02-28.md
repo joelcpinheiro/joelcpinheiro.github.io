@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /post-swarmpoc-2021-02-28
-permalink_name: /post-swarmpoc-2021-02-28
 title: Proof of Concept Environment Cluster Docker Swarm
 ---
 
