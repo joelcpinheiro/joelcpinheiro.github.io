@@ -13,6 +13,7 @@ title: My Profile
 ## Online Courses
 
 # 2021
+LPI DevOps Tools Engineer Certification(In progress)
 Managing AWS with Ansible(A Cloud Guru)
 Learning HashiCorp Nomad(A Cloud Guru)
 AWS Academy Graduate - AWS Academy Cloud Foundations
