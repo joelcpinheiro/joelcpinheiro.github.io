@@ -6,10 +6,8 @@ title: Joel Pinheiro
 
 ---
 
-# Under construction...Stay calm and relax(not really)
-
 # <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
-# Latest good content shared to you click<a href="https://github.com/joelcpinheiro?tab=repositories"> here</a>
+# Latest good content shared to you click <a href="https://github.com/joelcpinheiro?tab=repositories">here</a>
 
 # My VSCode Extensions
 
