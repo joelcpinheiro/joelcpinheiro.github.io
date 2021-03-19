@@ -13,13 +13,13 @@ title: My Profile
 ## Online Courses
 
 # 2021
-LPI DevOps Tools Engineer Certification(In progress)
-Managing AWS with Ansible(A Cloud Guru)
-Learning HashiCorp Nomad(A Cloud Guru)
-AWS Academy Graduate - AWS Academy Cloud Foundations
-AWS Certified Cloud Practitioner(A Cloud Guru)
+LPI DevOps Tools Engineer Certification (A Cloud Guru) - In progress
+Managing AWS with Ansible (A Cloud Guru)
+Learning HashiCorp Nomad (A Cloud Guru)
+AWS Academy Graduate (AWS Academy Cloud Foundations)
+AWS Certified Cloud Practitioner (A Cloud Guru)
 # 2020
-JBoss EAP Administration(A Cloud Guru)
+JBoss EAP Administration (A Cloud Guru)
 Inglês na Rota da Fluência 3.0 (Márcia Daniela)
 Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)
 
