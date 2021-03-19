@@ -18,7 +18,8 @@ Bracket Pair Colorizer 2;
 Code Spell Checker;
 GitLens;
 GitHub;
-Vagrant.
+Vagrant;
+Wakatime.
 
 # Learning English
 

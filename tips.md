@@ -2,7 +2,7 @@
 layout: page
 permalink: /tips
 permalink_name: /tips
-title: Always share my content to growing the power of internet!
+title: Always sharing to growing the power of internet!
 ---
 
 See my tips for Nomad click [here](post-nomad-2021-02-26).
