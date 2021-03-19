@@ -69,6 +69,12 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 
 # Linux? He change my life <3 <3 <3....not so much hehe
 
+# Customizing BASH Prompt Statement one:
+
+```sh
+PS1='\[\e[01;36m\]\u\[\e[01;37m\]@\[\e[01;33m\]\H\[\e[01;37m\]:\[\e[01;32m\]\w\[\e[01;37m\]\$\[\033[0;37m\]'
+```
+
 # check IP valid of virtual machine
 
 ```sh
