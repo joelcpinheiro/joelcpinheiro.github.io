@@ -80,7 +80,11 @@ PS1='\[\e[01;36m\]\u\[\e[01;37m\]@\[\e[01;33m\]\H\[\e[01;37m\]:\[\e[01;32m\]\w\[
 ```sh
 curl ifconfig.me
 ```
+# Analysing Apache performance with ApacheBuddy:
 
+```sh
+curl -sL https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl | perl
+```
 # Install Terraform on CentOS/RHEL
 
 Install package:
