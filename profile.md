@@ -25,13 +25,11 @@ Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)
 
 # 2019
 
-...
 # 2018
 
-...
+
 # 2017
 
-...
 
 # 2016
 
@@ -44,7 +42,12 @@ DOD Fortaleza 2020
 
 # Local Events
 
-DOD Fortaleza 2019
+
+
+DOD Fortaleza 2019 (Out/2019);
+Suse Expert Days (Mar/2019).
+
+
 DOD Fortaleza 2018
 
 
