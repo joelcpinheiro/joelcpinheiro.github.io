@@ -9,6 +9,13 @@ title: Joel Pinheiro
 # <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
 # Latest good content shared to you click <a href="https://github.com/joelcpinheiro?tab=repositories">here</a>
 
+# My resume
+
+Sysadmin engineer with +6 years of professional experience in mission-critical and large-scale environments using Linux, including systems and services design, installation, configuration, scaling,
+automation, capacity planning, networking, security and integration in heterogeneous enterprise environments.
+Experience in programming in Shell scripting, with a background and application development for Linux platforms.
+Experience in monitoring mixed environments including virtual machines, physical hosts and appliances.
+
 # My VSCode Extensions
 
 Dracula Theme;
