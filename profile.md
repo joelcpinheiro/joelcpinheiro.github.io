@@ -14,7 +14,7 @@ title: My Profile
 
 # 2021
 LPI DevOps Tools Engineer Certification (A Cloud Guru) - In progress
-Hands-On GitOps(A Cloud Guru)
+Hands-On GitOps (A Cloud Guru)
 Managing AWS with Ansible (A Cloud Guru)
 Learning HashiCorp Nomad (A Cloud Guru)
 AWS Academy Graduate (AWS Academy Cloud Foundations)
