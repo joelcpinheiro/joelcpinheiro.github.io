@@ -52,4 +52,5 @@ A startup enxuta(Eric Ries)
 Implementando o desenvolvimento lean de software
 Microserviços prontos para a produção
 
-To be continued soon :)
+
+To be continued asap :)
