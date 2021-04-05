@@ -9,7 +9,7 @@ title: My thoughts about my career
 
 # At March, 31, 2021...
 
-My last course that I finished on ACG Platform was LPI DevOps Tools Engineer Certification, I think important to understand about the Objectives of Exam on this link: https://wiki.lpi.org/wiki/DevOps_Tools_Engineer_Objectives_V1
+> My last course that I finished on ACG Platform was LPI DevOps Tools Engineer Certification, I think important to understand about the Objectives of Exam on this link: https://wiki.lpi.org/wiki/DevOps_Tools_Engineer_Objectives_V1
 
 6 Objectives
 6.1 701 Software Engineering
@@ -41,6 +41,9 @@ Modern Software Development (weight: 6) - Increase and give more enphasys on thi
 My question is, when will be the last update of this course?
 
 Thanks,
+
+# Status: Awaiting answer
+
 
 
 # At March, 8, 2021...
