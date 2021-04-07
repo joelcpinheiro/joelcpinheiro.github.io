@@ -13,7 +13,8 @@ title: My Profile
 ## Online Courses
 
 # 2021
-LPI DevOps Tools Engineer Certification (A Cloud Guru) - In progress
+HashiCorp Certified Terraform Associate (A Cloud Guru)
+LPI DevOps Tools Engineer Certification (A Cloud Guru)
 Hands-On GitOps (A Cloud Guru)
 Managing AWS with Ansible (A Cloud Guru)
 Learning HashiCorp Nomad (A Cloud Guru)
