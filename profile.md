@@ -13,6 +13,7 @@ title: My Profile
 ## Online Courses
 
 # 2021
+HashiCorp Packer (A Cloud Guru) - In progress
 HashiCorp Certified Terraform Associate (A Cloud Guru)
 LPI DevOps Tools Engineer Certification (A Cloud Guru)
 Hands-On GitOps (A Cloud Guru)
