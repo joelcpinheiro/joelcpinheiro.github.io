@@ -24,8 +24,7 @@ AWS Certified Cloud Practitioner (A Cloud Guru)
 JBoss EAP Administration (A Cloud Guru)
 Inglês na Rota da Fluência 3.0 (Márcia Daniela)
 Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)
-INFRAESTRUTURA ÁGIL COM PRÁTICAS DEVOPS
-Gabriel Policante (Feb 2020 - 24 hours)
+INFRAESTRUTURA ÁGIL COM PRÁTICAS DEVOPS - Gabriel Policante (Feb 2020 - 24 hours)
 
 # 2019
 
