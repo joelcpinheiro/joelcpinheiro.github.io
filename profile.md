@@ -12,6 +12,7 @@ title: My Profile
 # Updates
 ## Online and Local Courses
 # 2021
+Introduction to OpenShift (A Cloud Guru)
 HashiCorp Packer (A Cloud Guru)
 HashiCorp Certified Terraform Associate (A Cloud Guru)
 LPI DevOps Tools Engineer Certification (A Cloud Guru)
