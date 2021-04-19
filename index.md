@@ -37,19 +37,19 @@ Ask Jackie;
 
 # Learning books about DevOps
 
-Manual de DevOps
-O Projeto Fenix
-Entrega Contínua
-TI Lean
-Toyota Kata
-Scrum Essencial
-Scrum a arte de fazer o dobro do tempo
-Comunicação não violenta
-O jeito Disney de encantar clientes
-A meta(Goldratti)
-A startup enxuta(Eric Ries)
-Implementando o desenvolvimento lean de software
-Microserviços prontos para a produção
+The DevOps Handbook (Gene Kim/Patrick Debois)
+The Fenix Project (Gene Kim/Kevin Behr)
+Continuous Delivery (Jaz Humble/David Farley)
+IT Lean (Michael A Orzen/Steve Bell)
+Toyota Kata (Mike Rother)
+Essencial Scrum (Kenneth Rubin)
+Scrum: The Art of Doing Twice the Work in Half the Time (Jeff Sutherland/JJ Sutherland)
+Non-Violent Communication (Marshal B. Rosenberg)
+Perfecting the Art of Customer Service
+The Goal: A Process of Ongoing Improvement (Goldratti)
+The Lean Startup (Eric Ries)
+Implementing Lean Software Development (Mary Poppendieck)
+Production-Ready Microservices (Susan J. Fowler)
 
 
 To be continued asap :)
