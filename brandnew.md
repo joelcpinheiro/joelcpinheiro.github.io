@@ -7,6 +7,15 @@ title: My thoughts about my career
 
 # Stuff it was looks like better, but....
 
+# At April, 19, 2021...
+
+How about the ACG Openshift courses, unfortunately, they don't could to provide for me one CRC Environment to that I do the Hands-on labs, This is very bad, because I don't have to create my own CRC enviroment, the courses until the moment are:
+
+Introduction to OpenShift;
+OpenShift 4 Authentication and User Management;
+Deploying and Managing Applications in OpenShift 4.
+
+
 # At March, 31, 2021...
 
 > My last course that I finished on ACG Platform was LPI DevOps Tools Engineer Certification, I think important to understand about the Objectives of Exam on this link: https://wiki.lpi.org/wiki/DevOps_Tools_Engineer_Objectives_V1
@@ -42,7 +51,7 @@ title: My thoughts about my career
 
 > Thanks,
 
-# Status: Awaiting answer
+# Status: I could see another courses available on ACG Platform.
 
 
 ---

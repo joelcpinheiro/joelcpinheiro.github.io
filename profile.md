@@ -10,8 +10,11 @@ title: My Profile
 # Do you want see my professional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
 
 # Updates
-## Online and Local Courses
+## Online and Local Courses and Certifications
+
 # 2021
+
+Introduction to OpenShift (A Cloud Guru)
 HashiCorp Packer (A Cloud Guru)
 HashiCorp Certified Terraform Associate (A Cloud Guru)
 LPI DevOps Tools Engineer Certification (A Cloud Guru)
@@ -20,28 +23,38 @@ Managing AWS with Ansible (A Cloud Guru)
 Learning HashiCorp Nomad (A Cloud Guru)
 AWS Academy Graduate (AWS Academy Cloud Foundations)
 AWS Certified Cloud Practitioner (A Cloud Guru)
+
 # 2020
+
 JBoss EAP Administration (A Cloud Guru)
 Inglês na Rota da Fluência 3.0 (Márcia Daniela)
 Curso Preparatório para LPIC-2 (Ricardo Prudenciato - Udemy)
 INFRAESTRUTURA ÁGIL COM PRÁTICAS DEVOPS - Gabriel Policante (Feb 2020 - 24 hours)
+LPIC-2 Exam 202 (Mar)
 
 # 2019
 
 TREINAMENTO DESCOMPLICANDO O DOCKER - LINUXtips (Mar - 16 hours)
 TREINAMENTO WINDOWS SERVER 2016 - Marcondes Alexandre (Mar - 20 hours)
+LPIC-2 Exam 201 (Sep)
 
 # 2018
 
 FORMAÇÃO DE ADMINISTRADORES DE REDE NA PLATAFORMA CISCO(CCNA) - SecrelNet (Mar - 100 hours)
+
+# 2015
+
+LPIC-1 Exam 102 (Mar)
+
 # 2014
 
 CURSO MYSQL - Cais Network (Feb - 80 hours)
+LPIC-1 Exam 101 (Mar)
 
 # 2013
 
 SERVIDORES LINUX NA PRÁTICA - F13 Tecnologia (Apr – 80 hours).
-LINUX AVANÇADO - UTD – Universidade do Trabalho Digital(Feb – 80 hours).
+LINUX AVANÇADO - UTD – Universidade do Trabalho Digital (Feb – 80 hours).
 
 # 2010
 

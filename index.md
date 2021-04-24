@@ -9,10 +9,9 @@ title: Joel Pinheiro
 # <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
 # Latest good content shared to you click <a href="https://github.com/joelcpinheiro?tab=repositories">here</a>
 
-# My resume
+# My Resume
 
-Sysadmin engineer with +6 years of professional experience in mission-critical and large-scale environments using Linux, including systems and services design, installation, configuration, scaling,
-automation, capacity planning, networking, security and integration in heterogeneous enterprise environments.
+Sysadmin engineer with +6 years of professional experience in mission-critical and large-scale environments using Linux, including systems and services design, installation, configuration, scaling, automation, capacity planning, networking, security and integration in heterogeneous enterprise environments.
 Experience in programming in Shell scripting, with a background and application development for Linux platforms.
 Experience in monitoring mixed environments including virtual machines, physical hosts and appliances.
 
@@ -38,19 +37,19 @@ Ask Jackie;
 
 # Learning books about DevOps
 
-Manual de DevOps
-O Projeto Fenix
-Entrega Contínua
-TI Lean
-Toyota Kata
-Scrum Essencial
-Scrum a arte de fazer o dobro do tempo
-Comunicação não violenta
-O jeito Disney de encantar clientes
-A meta(Goldratti)
-A startup enxuta(Eric Ries)
-Implementando o desenvolvimento lean de software
-Microserviços prontos para a produção
+The DevOps Handbook (Gene Kim/Patrick Debois)
+The Fenix Project (Gene Kim/Kevin Behr)
+Continuous Delivery (Jaz Humble/David Farley)
+IT Lean (Michael A Orzen/Steve Bell)
+Toyota Kata (Mike Rother)
+Essencial Scrum (Kenneth Rubin)
+Scrum: The Art of Doing Twice the Work in Half the Time (Jeff Sutherland/JJ Sutherland)
+Non-Violent Communication (Marshal B. Rosenberg)
+Perfecting the Art of Customer Service
+The Goal: A Process of Ongoing Improvement (Goldratti)
+The Lean Startup (Eric Ries)
+Implementing Lean Software Development (Mary Poppendieck)
+Production-Ready Microservices (Susan J. Fowler)
 
 
 To be continued asap :)
