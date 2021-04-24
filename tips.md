@@ -6,9 +6,10 @@ title: Always sharing to growing the power of internet!
 ---
 
 See my tips for Nomad click [here](post-nomad-2021-02-26).
+See my tips for Kubernetes click [here](post-k8s-2021-04-24).
 See my POC using Docker Swarm, click [here](post-swarmpoc-2021-02-28).
 See my WordPress CMS on docker, click <a href="https://github.com/joelcpinheiro/docker_wpmultisite">here</a>.
-See my Jboss commands reference [here](post-jboss-2021-03-11)
+See my Jboss commands reference [here](post-jboss-2021-03-11).
 See someone tips for Proxmox click [here](post-proxmox-2021-02-24).
 
 # Install Grafana Loki with docker compose:
