@@ -21,14 +21,6 @@ docker-compose -f docker-compose.yaml up
 # Access WebUI http://IPGRAFANALOKI:3000 and insert a loki data source plugin.
 
 
-# Kubernetes
-
-# I will add content shortly ;)
-
-
-
-
-
 # Zabbix Server
 
 Check if UserParameter exists on zabbix-agent:
