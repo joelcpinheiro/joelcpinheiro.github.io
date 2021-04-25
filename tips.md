@@ -68,6 +68,16 @@ DELETE FROM trends_uint WHERE (UNIX_TIMESTAMP(NOW()) - clock) > (@trends_interva
 PS1='\[\e[01;36m\]\u\[\e[01;37m\]@\[\e[01;33m\]\H\[\e[01;37m\]:\[\e[01;32m\]\w\[\e[01;37m\]\$\[\033[0;37m\]'
 ```
 
+# Creating a file and add content using EOF
+
+```sh
+cat << 'EOF' > newfile.txt
+
+content here....
+
+EOF
+```
+
 # check IP valid of virtual machine
 
 ```sh
