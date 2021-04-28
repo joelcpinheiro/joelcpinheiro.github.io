@@ -14,8 +14,8 @@ title: My Profile
 
 # 2021
 
-EKS Basics (A Cloud Guru)
 Certified Kubernetes Administrator (CKA) - In Progress
+EKS Basics (A Cloud Guru)
 Introduction to Kubernetes (A Cloud Guru)
 Introduction to OpenShift (A Cloud Guru)
 HashiCorp Packer (A Cloud Guru)
