@@ -15,6 +15,7 @@ Introduction to OpenShift;
 OpenShift 4 Authentication and User Management;
 Deploying and Managing Applications in OpenShift 4.
 
+# Status: My solution was create an account <a href="https://developers.redhat.com/developer-sandbox">here</a> and try for 30 days play a lot on Developer Sandbox for Red Hat OpenShift.
 
 # At March, 31, 2021...
 
