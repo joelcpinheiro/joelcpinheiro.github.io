@@ -2,4 +2,5 @@
 
 - If it's your first environment with docker and need to automating the images, so use Whatchtower;
 - First Load Balancing using Docker Swarm;
+- Migrating my porfolio site to GCP and use Ghost CMS;
 - ...
