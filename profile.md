@@ -14,19 +14,26 @@ title: My Profile
 
 # 2021
 
-Certified Kubernetes Administrator (CKA) - In Progress
-EKS Basics (A Cloud Guru)
-Introduction to Kubernetes (A Cloud Guru)
+Essential Container Concepts (A Cloud Guru)
+Docker - Deep Dive (A Cloud Guru)
+Learn Docker by Doing (A Cloud Guru)
 Introduction to OpenShift (A Cloud Guru)
-HashiCorp Packer (A Cloud Guru)
-HashiCorp Certified Terraform Associate (A Cloud Guru)
-LPI DevOps Tools Engineer Certification (A Cloud Guru)
-Hands-On GitOps (A Cloud Guru)
 Managing AWS with Ansible (A Cloud Guru)
+Hands-On GitOps (A Cloud Guru)
+Elastic Stack Essentials (A Cloud Guru)
+Elasticsearch Deep Dive (A Cloud Guru)
+Docker Quick Start (A Cloud Guru)
+HashiCorp Certified Terraform Associate (A Cloud Guru)
 Learning HashiCorp Nomad (A Cloud Guru)
+HashiCorp Packer (A Cloud Guru)
+Introduction to Kubernetes (A Cloud Guru)
+Kubernetes Quick Start (A Cloud Guru)
+Certified Kubernetes Administrator - CKA (A Cloud Guru)
+Certified Kubernetes Application Developer - CKAD (A Cloud Guru)
+LPI DevOps Tools Engineer Certification (A Cloud Guru)
+Beginner’s Guide to Containers and Orchestration (A Cloud Guru)
+AWS Certified Cloud Practitioner 2020
 AWS Academy Graduate (AWS Academy Cloud Foundations)
-AWS Certified Cloud Practitioner (A Cloud Guru)
-
 # 2020
 
 JBoss EAP Administration (A Cloud Guru)
