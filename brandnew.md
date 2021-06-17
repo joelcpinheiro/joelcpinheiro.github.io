@@ -7,6 +7,11 @@ title: My thoughts about my career
 
 # Stuff it was looks like better, but....
 
+
+# At June, 16, 2021...
+
+I'm very sad because I don't get my LPIC3 305 Certification, there are many questions about virtualization like libvirt, xen and another stuff that I don't work yet, I saw many contents about vagrant, docker and LXC, it makes me fell comfortable, but in this case of virtualization, it was my rock, anyway, I'll try to schedule the exam on another opportunity.
+
 # At April, 19, 2021...
 
 How about the ACG Openshift courses, unfortunately, they don't could to provide for me one CRC Environment to that I do the Hands-on labs, This is very bad, because I don't have to create my own CRC enviroment, the courses until the moment are:
