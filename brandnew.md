@@ -2,7 +2,7 @@
 layout: page
 permalink: /brandnew
 permalink_name: /brandnew
-title: My thoughts about my career
+title: Thoughts about my career
 ---
 
 # At December, 20, 2021
