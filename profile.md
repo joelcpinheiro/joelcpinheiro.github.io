@@ -6,11 +6,22 @@ title: My Profile
 ---
 
 
-# Under construction too...:P
-# Do you want see my professional <a href="https://www.linkedin.com/in/joelcostapinheiro">profile</a>?
+### If you wanna see my professional profile on LinkedIn, click [here](https://www.linkedin.com/in/joelcostapinheiro/).
 
-# Updates
-## Online and Local Courses and Certifications
+### Online and Local Certifications/Courses/Projects
+
+# 2023
+
+Formação AWS 4.0 (Oregon EAD - Henrylle Maia - In progress)
+EnglishCentral Platform (In progress - 2nd year subscription)
+AWS Certified Solutions Architect Associate SAA(Tutorials Dojo - In progress)
+
+# 2022
+
+Rocking Kubernetes with Amazon EKS, Fargate, And DevOps(Udemy - Rajdeep Saha)
+English Central Platform
+Google Cloud Fundamentals: Core Infrastructure(Coursera)
+
 
 # 2021
 
