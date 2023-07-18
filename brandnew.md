@@ -5,8 +5,27 @@ permalink_name: /brandnew
 title: My thoughts about my career
 ---
 
-# Stuff it was looks like better, but....
+# At December, 20, 2021
 
+I saved the Victoria's Semaan LinkedIn article to study AWS. Upon reading the article, I found it exceptionally interesting. I tried to follow all this content choosing mainly the priority column,  check this link:
+
+[https://share-linkedin-materials.s3.amazonaws.com/Study+Plan+for+AWS+SAA.pdf](https://share-linkedin-materials.s3.amazonaws.com/Study+Plan+for+AWS+SAA.pdf)
+
+# At December, 04, 2021
+
+Yesterday, I passed on AWS Certified Cloud Practitioner Exam, I have studied since last year always as possible, acquainted experience on Cloud and the result couldn't be better, thanks God for this opportunity.
+I used these content to study and improving my knowledge for this Exam:
+
+[https://acloudguru.com/course/aws-cloud-practitioner-clf-c01-la](https://acloudguru.com/course/aws-cloud-practitioner-clf-c01-la)
+[https://www.udemy.com/course/aws-certified-cloud-practitioner-new](https://www.udemy.com/course/aws-certified-cloud-practitioner-new)
+[https://www.whizlabs.com/aws-certified-cloud-practitioner/](https://www.whizlabs.com/aws-certified-cloud-practitioner/)
+
+This month I try to organize all of my stuff to the next year checking another next Certification Exams I'll do. I might think of do between CKA(Certified Kubernetes Administrator) or AWS Certified  Solutions Architect Associate.
+
+# At September, 16, 2021...
+
+My plans are doing the AWS Cloud Practitioner Exam on next month, maybe at the first week, because I have another plans to do in the near future like initiate my studies about the CKA(Certified Kubernetes Administrator).
+Nowadays I'm improving my knowledge doing Whizlabs simulators and Stephan Mareek simulators too, I believe that on next month I'm here to say about my good results on the first AWS Exam. 
 
 # At June, 16, 2021...
 
