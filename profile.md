@@ -13,7 +13,7 @@ title: My Profile
 # 2023
 
 Formação AWS 4.0 (Oregon EAD - Henrylle Maia - In progress)
-EnglishCentral Platform (In progress - 2nd year subscription)
+English Central Platform (In progress - 2nd year subscription)
 AWS Certified Solutions Architect Associate SAA(Tutorials Dojo - In progress)
 
 # 2022
