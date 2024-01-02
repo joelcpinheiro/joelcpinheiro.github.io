@@ -7,7 +7,7 @@ title: Joel Pinheiro
 ---
 
 # <a href="https://joelpinheiro.com/tips">Some tips for life :)</a>
-# Latest good content shared to you click <a href="https://github.com/joelcpinheiro?tab=repositories">here</a>
+# Latest good content shared to you, click <a href="https://github.com/joelcpinheiro?tab=repositories">here</a>. These are my repositories, feel free to do a fork or suggest something.
 
 # My Resume
 
