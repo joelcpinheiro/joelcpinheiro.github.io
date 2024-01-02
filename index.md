@@ -15,7 +15,7 @@ Sysadmin engineer with +14 years of professional experience in mission-critical 
 Experience in programming in Shell scripting, with a background and application development for Linux platforms.
 Experience in monitoring mixed environments including virtual machines, physical hosts and appliances.
 
-# My little VSCode Extensions
+# My favorite VSCode Extension list:  
 
 Dracula Theme;
 Bracket Pair Colorizer 2;
@@ -25,7 +25,7 @@ GitHub;
 Vagrant;
 Wakatime.
 
-# Learning English(asap)
+# Learning English:  
 
 YouTube Sources:
 Crazy Koller;
@@ -33,9 +33,8 @@ Small Advantages;
 Rachel's English;
 Elemental English;
 English in Brazil by Carina Fragoso;
-Ask Jackie;
 
-# Reading books about DevOps
+# Reading books about DevOps:  
 
 The DevOps Handbook (Gene Kim/Patrick Debois)
 The Fenix Project (Gene Kim/Kevin Behr)
@@ -49,4 +48,6 @@ Perfecting the Art of Customer Service
 The Goal: A Process of Ongoing Improvement (Goldratti)
 The Lean Startup (Eric Ries)
 Implementing Lean Software Development (Mary Poppendieck)
-Production-Ready Microservices (Susan J. Fowler)
+Production-Ready Microservices (Susan J. Fowler)  
+
+Don't forget to enjoy your life!
