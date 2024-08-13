@@ -4,8 +4,6 @@
 
 layout: home
 ---
-# My Resume
-
 Sysadmin engineer with +14 years of professional experience in mission-critical and large-scale environments using Linux, including systems and services design, installation, configuration, scaling, automation, capacity planning, networking, security and integration in heterogeneous enterprise environments.
 Experience in programming in Shell scripting, with a background and application development for Linux platforms.
 Experience in monitoring mixed environments including virtual machines, physical hosts and appliances.
