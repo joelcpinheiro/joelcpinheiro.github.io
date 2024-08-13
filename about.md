@@ -72,30 +72,30 @@ LPIC-1 Exam 101 (Mar)
 
 # 2013
 
-SERVIDORES LINUX NA PRÁTICA - F13 Tecnologia (Apr – 80 hours).
-LINUX AVANÇADO - UTD – Universidade do Trabalho Digital (Feb – 80 hours).
+SERVIDORES LINUX NA PRÁTICA - F13 Tecnologia (Apr – 80 hours)  
+LINUX AVANÇADO - UTD – Universidade do Trabalho Digital (Feb – 80 hours)  
 
 # 2010
 
-ADMINISTRAÇÃO DE REDES LINUX - Trenil ​(Aug - 40 hours).
+ADMINISTRAÇÃO DE REDES LINUX - Trenil ​(Aug - 40 hours)  
 
 # 2008
 
-ORACLE FORMS E REPORTS - Barrio Consultoria (Oct - 40 hours).
-POSTGRESQL E MYSQL - Faculdade Integrada do Ceará - FIC (Aug - 40 hours).
-INTRODUÇÃO A BANCO DE DADOS ORACLE 10G - Barrio Consultoria (Jul - 40 hours).
-ADMINISTRAÇÃO DE SISTEMAS LINUX - Barrio Consultoria (Abr - 40 hours).
-
+ORACLE FORMS E REPORTS - Barrio Consultoria (Oct - 40 hours)  
+POSTGRESQL E MYSQL - Faculdade Integrada do Ceará - FIC (Aug - 40 hours)  
+INTRODUÇÃO A BANCO DE DADOS ORACLE 10G - Barrio Consultoria (Jul - 40 hours)  
+ADMINISTRAÇÃO DE SISTEMAS LINUX - Barrio Consultoria (Abr - 40 hours)  
 
 # Online Events
 
-AWS Cloud Practitioner Essentials Day(KA Solution, March 2021)
-DOD Fortaleza 2020
+AWS Cloud Practitioner Essentials Day(KA Solution, March 2021)  
+DevOpsDays Fortaleza 2020  
 
 # Local Events
 
-DOD Fortaleza 2019 (Out/2019);
-Suse Expert Days (Mar/2019).
-
-
-DOD Fortaleza 2018
+Red Hat Open Talks 2024(may)  
+DevOpsDays Fortaleza 2023(sep)  
+DevOpsDays Fortaleza 2022(oct)    
+DevOpsDays Fortaleza 2019(oct)  
+Suse Expert Days 2019 (mar)  
+DevOpsDays Fortaleza 2018(oct)  
