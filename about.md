@@ -10,13 +10,12 @@ permalink: /about/
 
 # 2025
 
-Red Hat OpenShift Administration I: Operating a Production Cluster(DO180)
-Red Hat OpenShift Administration II: Configuring a Production Cluster(DO280)
+Red Hat OpenShift Administration I: Operating a Production Cluster(DO180)  
+Red Hat OpenShift Administration II: Configuring a Production Cluster(DO280)  
 
+# 2024  
 
-# 2024
-
-Red Hat OpenShift Administration (PE180) Course
+Red Hat OpenShift Administration (PE180) Course  
 English Central Platform (In progress - 3nd year subscription)  
 
 # 2023
