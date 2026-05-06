@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-### If you wanna see my professional profile on LinkedIn, click [here](https://www.linkedin.com/in/joelcostapinheiro/).
+### See my professional profile on LinkedIn, click [here](https://www.linkedin.com/in/joelcostapinheiro/).
 
 ### Online and Local Certifications/Courses/Projects
 
 # 2023
 
-Formação AWS 4.0 (Oregon EAD - Henrylle Maia - In progress)  
+Formação AWS 4.0 (Oregon EAD - Henrylle Maia)  
 English Central Platform (In progress - 2nd year subscription)  
-AWS Certified Solutions Architect Associate SAA(Tutorials Dojo - In progress)  
+AWS Certified Solutions Architect Associate SAA(Tutorials Dojo)  
 
 # 2022
 
