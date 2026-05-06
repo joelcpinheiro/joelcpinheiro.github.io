@@ -4,9 +4,10 @@
 
 layout: home
 ---
-Sysadmin engineer with +14 years of professional experience in mission-critical and large-scale environments using Linux, including systems and services design, installation, configuration, scaling, automation, capacity planning, networking, security and integration in heterogeneous enterprise environments.
-Experience in programming in Shell scripting, with a background and application development for Linux platforms.
-Experience in monitoring mixed environments including virtual machines, physical hosts and appliances.
+Senior DevOps / Platform Engineer with 15+ years of experience designing, operating, and optimizing highly available cloud-native infrastructures.
+Strong expertise in AWS, Kubernetes/OpenShift, CI/CD, and distributed systems, with a solid background in networking (TCP/IP, HTTP), observability, and performance tuning.
+Experienced in supporting microservices architectures, improving deployment pipelines, reducing infrastructure costs, and ensuring high system reliability across production environments.
+Proven ability to take ownership of cloud operations, troubleshoot complex issues, and lead infrastructure improvements in fast-paced environments.
 
 # My favorite VSCode Extension list:  
 
