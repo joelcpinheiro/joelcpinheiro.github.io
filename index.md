@@ -4,6 +4,7 @@
 
 layout: home
 ---
+
 ### Professional Summary
 
 • Senior DevOps & Platform Engineer with 15+ years of experience building, scaling, and operating highly available, mission-critical infrastructure.  
